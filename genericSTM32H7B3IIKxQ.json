@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m7",
+    "extra_flags": "-DSTM32H7B3xxQ -DSTM32H7",
+    "f_cpu": "280000000L",
+    "mcu": "STM32H7B3IIKxQ",
+    "product_line": "STM32H7B3xxQ",
+    "variant": "STM32H7xx/H7A3I(G-I)KxQ_H7B0IBKxQ_H7B3IIKxQ"
+  },
+  "debug": {
+    "jlink_device": "STM32H7B3II",
+    "openocd_target": "stm32h7x",
+    "svd_path": "STM32H7B3.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32H7B3IIKxQ (1424.0k RAM 2048.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 1458176,
+    "maximum_size": 2097152,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32H7B3IIKxQ",
+  "vendor": "Generic"
+}

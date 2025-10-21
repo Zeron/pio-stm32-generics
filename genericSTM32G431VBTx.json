@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32G431xx -DSTM32G4",
+    "f_cpu": "170000000L",
+    "mcu": "STM32G431VBTx",
+    "product_line": "STM32G431xx",
+    "variant": "STM32G4xx/G431V(6-8-B)T_G441VBT"
+  },
+  "debug": {
+    "jlink_device": "STM32G431VB",
+    "openocd_target": "stm32g4x",
+    "svd_path": "STM32G431.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32G431VBTx (32.0k RAM 128.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 32768,
+    "maximum_size": 131072,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32G431VBTx",
+  "vendor": "Generic"
+}

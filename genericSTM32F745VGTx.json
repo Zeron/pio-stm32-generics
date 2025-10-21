@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m7",
+    "extra_flags": "-DSTM32F745xx -DSTM32F7",
+    "f_cpu": "216000000L",
+    "mcu": "STM32F745VGTx",
+    "product_line": "STM32F745xx",
+    "variant": "STM32F7xx/F745V(E-G)(H-T)_F746V(E-G)(H-T)_F750V8T_F756VG(H-T)"
+  },
+  "debug": {
+    "jlink_device": "STM32F745VG",
+    "openocd_target": "stm32f7x",
+    "svd_path": "STM32F745.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32F745VGTx (320.0k RAM 1024.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 327680,
+    "maximum_size": 1048576,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32F745VGTx",
+  "vendor": "Generic"
+}

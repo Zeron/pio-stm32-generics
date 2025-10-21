@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m33",
+    "extra_flags": "-DSTM32H503xx -DSTM32L",
+    "f_cpu": "250000000L",
+    "mcu": "STM32H503EBYx",
+    "product_line": "STM32H503xx",
+    "variant": "STM32H5xx/H503EBY"
+  },
+  "debug": {
+    "jlink_device": "STM32H503EB",
+    "openocd_target": "stm32xl",
+    "svd_path": "STM32H503.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32H503EBYx (32.0k RAM 128.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 32768,
+    "maximum_size": 131072,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32H503EBYx",
+  "vendor": "Generic"
+}

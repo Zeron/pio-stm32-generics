@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m33",
+    "extra_flags": "-DSTM32WBA54xx -DSTM32WB",
+    "f_cpu": "100000000L",
+    "mcu": "STM32WBA54CEUx",
+    "product_line": "STM32WBA54xx",
+    "variant": "STM32WBAxx/WBA52C(E-G)U_WBA54C(E-G)U"
+  },
+  "debug": {
+    "jlink_device": "STM32WBA54CE",
+    "openocd_target": "stm32wbx",
+    "svd_path": "STM32WBA54.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32WBA54CEUx (96.0k RAM 512.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 98304,
+    "maximum_size": 524288,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32WBA54CEUx",
+  "vendor": "Generic"
+}

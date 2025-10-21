@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m7",
+    "extra_flags": "-DSTM32H745xG -DSTM32H7",
+    "f_cpu": "480000000L",
+    "mcu": "STM32H745IGTx",
+    "product_line": "STM32H745xG",
+    "variant": "STM32H7xx/H745I(G-I)T_H755IIT"
+  },
+  "debug": {
+    "jlink_device": "",
+    "openocd_target": "stm32h7x",
+    "svd_path": "STM32H745_CM7.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32H745IGTx (864.0k RAM 1024.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 884736,
+    "maximum_size": 1048576,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32H745IGTx",
+  "vendor": "Generic"
+}

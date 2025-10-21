@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m0plus",
+    "extra_flags": "-DSTM32L051xx -DSTM32L0",
+    "f_cpu": "32000000L",
+    "mcu": "STM32L051K6Ux",
+    "product_line": "STM32L051xx",
+    "variant": "STM32L0xx/L051K(6-8)U"
+  },
+  "debug": {
+    "jlink_device": "STM32L051K6",
+    "openocd_target": "stm32l0",
+    "svd_path": "STM32L0x1.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32L051K6Ux (8.0k RAM 32.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 8192,
+    "maximum_size": 32768,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32L051K6Ux",
+  "vendor": "Generic"
+}

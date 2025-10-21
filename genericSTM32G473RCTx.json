@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32G473xx -DSTM32G4",
+    "f_cpu": "170000000L",
+    "mcu": "STM32G473RCTx",
+    "product_line": "STM32G473xx",
+    "variant": "STM32G4xx/G473R(B-C)T_G473RETx(Z)_G474R(B-C-E)T_G483RET_G484RET"
+  },
+  "debug": {
+    "jlink_device": "STM32G473RC",
+    "openocd_target": "stm32g4x",
+    "svd_path": "STM32G473.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32G473RCTx (128.0k RAM 256.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 131072,
+    "maximum_size": 262144,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32G473RCTx",
+  "vendor": "Generic"
+}

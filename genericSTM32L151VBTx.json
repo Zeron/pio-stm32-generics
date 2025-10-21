@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m3",
+    "extra_flags": "-DSTM32L151xB -DSTM32L1",
+    "f_cpu": "32000000L",
+    "mcu": "STM32L151VBTx",
+    "product_line": "STM32L151xB",
+    "variant": "STM32L1xx/L151V(8-B)(H-T)x(A)_L152V(8-B)(H-T)x(A)"
+  },
+  "debug": {
+    "jlink_device": "STM32L151VB",
+    "openocd_target": "stm32l1",
+    "svd_path": "STM32L151.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32L151VBTx (16.0k RAM 128.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 16384,
+    "maximum_size": 131072,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32L151VBTx",
+  "vendor": "Generic"
+}

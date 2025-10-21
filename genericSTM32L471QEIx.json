@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32L471xx -DSTM32L4",
+    "f_cpu": "80000000L",
+    "mcu": "STM32L471QEIx",
+    "product_line": "STM32L471xx",
+    "variant": "STM32L4xx/L471Q(E-G)I"
+  },
+  "debug": {
+    "jlink_device": "STM32L471QE",
+    "openocd_target": "stm32l4x",
+    "svd_path": "STM32L471.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32L471QEIx (128.0k RAM 512.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 131072,
+    "maximum_size": 524288,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32L471QEIx",
+  "vendor": "Generic"
+}

@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32F446xx -DSTM32F4",
+    "f_cpu": "180000000L",
+    "mcu": "STM32F446ZEHx",
+    "product_line": "STM32F446xx",
+    "variant": "STM32F4xx/F446Z(C-E)(H-J-T)"
+  },
+  "debug": {
+    "jlink_device": "STM32F446ZE",
+    "openocd_target": "stm32f4x",
+    "svd_path": "STM32F446.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32F446ZEHx (128.0k RAM 512.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 131072,
+    "maximum_size": 524288,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32F446ZEHx",
+  "vendor": "Generic"
+}

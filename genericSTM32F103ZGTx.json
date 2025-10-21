@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m3",
+    "extra_flags": "-DSTM32F103xG -DSTM32F1",
+    "f_cpu": "72000000L",
+    "mcu": "STM32F103ZGTx",
+    "product_line": "STM32F103xG",
+    "variant": "STM32F1xx/F103Z(F-G)(H-T)"
+  },
+  "debug": {
+    "jlink_device": "STM32F103ZG",
+    "openocd_target": "stm32f1x",
+    "svd_path": "STM32F103.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32F103ZGTx (96.0k RAM 1024.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 98304,
+    "maximum_size": 1048576,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32F103ZGTx",
+  "vendor": "Generic"
+}

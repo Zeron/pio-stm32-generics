@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m3",
+    "extra_flags": "-DSTM32L151xE -DSTM32L1",
+    "f_cpu": "32000000L",
+    "mcu": "STM32L151RETx",
+    "product_line": "STM32L151xE",
+    "variant": "STM32L1xx/L151RET_L152RET_L162RET"
+  },
+  "debug": {
+    "jlink_device": "STM32L151RE",
+    "openocd_target": "stm32l1",
+    "svd_path": "STM32L151.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32L151RETx (80.0k RAM 512.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 81920,
+    "maximum_size": 524288,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32L151RETx",
+  "vendor": "Generic"
+}

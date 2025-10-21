@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m7",
+    "extra_flags": "-DSTM32H742xx -DSTM32H7",
+    "f_cpu": "480000000L",
+    "mcu": "STM32H742VIHx",
+    "product_line": "STM32H742xx",
+    "variant": "STM32H7xx/H742V(G-I)(H-T)_H743V(G-I)(H-T)_H750VBT_H753VI(H-T)"
+  },
+  "debug": {
+    "jlink_device": "STM32H742VI",
+    "openocd_target": "stm32h7x",
+    "svd_path": "STM32H742.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32H742VIHx (864.0k RAM 2048.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 884736,
+    "maximum_size": 2097152,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32H742VIHx",
+  "vendor": "Generic"
+}

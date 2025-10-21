@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32G441xx -DSTM32G4",
+    "f_cpu": "170000000L",
+    "mcu": "STM32G441MBTx",
+    "product_line": "STM32G441xx",
+    "variant": "STM32G4xx/G431M(6-8-B)T_G441MBT"
+  },
+  "debug": {
+    "jlink_device": "STM32G441MB",
+    "openocd_target": "stm32g4x",
+    "svd_path": "STM32G441.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32G441MBTx (32.0k RAM 128.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 32768,
+    "maximum_size": 131072,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32G441MBTx",
+  "vendor": "Generic"
+}

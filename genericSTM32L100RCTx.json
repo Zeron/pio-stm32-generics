@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m3",
+    "extra_flags": "-DSTM32L100xC -DSTM32L1",
+    "f_cpu": "32000000L",
+    "mcu": "STM32L100RCTx",
+    "product_line": "STM32L100xC",
+    "variant": "STM32L1xx/L100RCT"
+  },
+  "debug": {
+    "jlink_device": "STM32L100RC",
+    "openocd_target": "stm32l1",
+    "svd_path": "STM32L100.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32L100RCTx (16.0k RAM 256.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 16384,
+    "maximum_size": 262144,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32L100RCTx",
+  "vendor": "Generic"
+}

@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32G474xx -DSTM32G4",
+    "f_cpu": "170000000L",
+    "mcu": "STM32G474VCHx",
+    "product_line": "STM32G474xx",
+    "variant": "STM32G4xx/G473V(B-C-E)(H-T)_G474V(B-C-E)(H-T)_G483VE(H-T)_G484VE(H-T)"
+  },
+  "debug": {
+    "jlink_device": "STM32G474VC",
+    "openocd_target": "stm32g4x",
+    "svd_path": "STM32G474.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32G474VCHx (128.0k RAM 256.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 131072,
+    "maximum_size": 262144,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32G474VCHx",
+  "vendor": "Generic"
+}

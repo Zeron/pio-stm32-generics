@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m3",
+    "extra_flags": "-DSTM32F103x6 -DSTM32F1",
+    "f_cpu": "72000000L",
+    "mcu": "STM32F103C6Tx",
+    "product_line": "STM32F103x6",
+    "variant": "STM32F1xx/F103C4T_F103C6(T-U)"
+  },
+  "debug": {
+    "jlink_device": "STM32F103C6",
+    "openocd_target": "stm32f1x",
+    "svd_path": "STM32F103.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32F103C6Tx (10.0k RAM 32.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 10240,
+    "maximum_size": 32768,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32F103C6Tx",
+  "vendor": "Generic"
+}

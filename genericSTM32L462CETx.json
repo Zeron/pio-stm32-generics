@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32L462xx -DSTM32L4",
+    "f_cpu": "80000000L",
+    "mcu": "STM32L462CETx",
+    "product_line": "STM32L462xx",
+    "variant": "STM32L4xx/L452CCU_L452CE(T-U)x(P)_L462CE(T-U)"
+  },
+  "debug": {
+    "jlink_device": "STM32L462CE",
+    "openocd_target": "stm32l4x",
+    "svd_path": "STM32L462.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32L462CETx (160.0k RAM 512.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 163840,
+    "maximum_size": 524288,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32L462CETx",
+  "vendor": "Generic"
+}

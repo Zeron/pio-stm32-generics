@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m3",
+    "extra_flags": "-DSTM32F105xC -DSTM32F1",
+    "f_cpu": "72000000L",
+    "mcu": "STM32F105V8Tx",
+    "product_line": "STM32F105xC",
+    "variant": "STM32F1xx/F105V(8-B)(H-T)_F105VCT"
+  },
+  "debug": {
+    "jlink_device": "STM32F105V8",
+    "openocd_target": "stm32f1x",
+    "svd_path": "STM32F105.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32F105V8Tx (64.0k RAM 64.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 65536,
+    "maximum_size": 65536,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32F105V8Tx",
+  "vendor": "Generic"
+}

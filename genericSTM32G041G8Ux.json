@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m0plus",
+    "extra_flags": "-DSTM32G041xx -DSTM32G0",
+    "f_cpu": "64000000L",
+    "mcu": "STM32G041G8Ux",
+    "product_line": "STM32G041xx",
+    "variant": "STM32G0xx/G031G(4-6-8)U_G041G(6-8)U"
+  },
+  "debug": {
+    "jlink_device": "STM32G041G8",
+    "openocd_target": "stm32g0x",
+    "svd_path": "STM32G041.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32G041G8Ux (8.0k RAM 64.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 8192,
+    "maximum_size": 65536,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32G041G8Ux",
+  "vendor": "Generic"
+}

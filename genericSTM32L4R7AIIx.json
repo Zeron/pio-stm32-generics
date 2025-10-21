@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32L4R7xx -DSTM32L4",
+    "f_cpu": "120000000L",
+    "mcu": "STM32L4R7AIIx",
+    "product_line": "STM32L4R7xx",
+    "variant": "STM32L4xx/L4R5AGI_L4R5AIIx(P)_L4R7AII_L4S5AII_L4S7AII"
+  },
+  "debug": {
+    "jlink_device": "STM32L4R7AI",
+    "openocd_target": "stm32l4x",
+    "svd_path": "STM32L4R7.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32L4R7AIIx (640.0k RAM 2048.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 655360,
+    "maximum_size": 2097152,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32L4R7AIIx",
+  "vendor": "Generic"
+}

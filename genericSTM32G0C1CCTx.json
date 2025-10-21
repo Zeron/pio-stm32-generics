@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m0plus",
+    "extra_flags": "-DSTM32G0C1xx -DSTM32G0",
+    "f_cpu": "64000000L",
+    "mcu": "STM32G0C1CCTx",
+    "product_line": "STM32G0C1xx",
+    "variant": "STM32G0xx/G0B1C(B-C-E)(T-U)_G0C1C(C-E)(T-U)"
+  },
+  "debug": {
+    "jlink_device": "STM32G0C1CC",
+    "openocd_target": "stm32g0x",
+    "svd_path": "STM32G0C1.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32G0C1CCTx (144.0k RAM 256.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 147456,
+    "maximum_size": 262144,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32G0C1CCTx",
+  "vendor": "Generic"
+}

@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32G431xx -DSTM32G4",
+    "f_cpu": "170000000L",
+    "mcu": "STM32G431R6Ix",
+    "product_line": "STM32G431xx",
+    "variant": "STM32G4xx/G431R(6-8)(I-T)_G431RB(I-T)x(Z)_G441RB(I-T)"
+  },
+  "debug": {
+    "jlink_device": "STM32G431R6",
+    "openocd_target": "stm32g4x",
+    "svd_path": "STM32G431.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32G431R6Ix (32.0k RAM 32.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 32768,
+    "maximum_size": 32768,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32G431R6Ix",
+  "vendor": "Generic"
+}

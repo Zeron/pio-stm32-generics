@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32F378xx -DSTM32F3",
+    "f_cpu": "72000000L",
+    "mcu": "STM32F378VCTx",
+    "product_line": "STM32F378xx",
+    "variant": "STM32F3xx/F378VC(H-T)"
+  },
+  "debug": {
+    "jlink_device": "STM32F378VC",
+    "openocd_target": "stm32f3x",
+    "svd_path": "STM32F3x8.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32F378VCTx (32.0k RAM 256.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 32768,
+    "maximum_size": 262144,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32F378VCTx",
+  "vendor": "Generic"
+}

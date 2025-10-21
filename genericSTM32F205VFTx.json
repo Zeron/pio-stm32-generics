@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m3",
+    "extra_flags": "-DSTM32F205xx -DSTM32F2",
+    "f_cpu": "120000000L",
+    "mcu": "STM32F205VFTx",
+    "product_line": "STM32F205xx",
+    "variant": "STM32F2xx/F205V(B-C-E-F-G)T_F215V(E-G)T"
+  },
+  "debug": {
+    "jlink_device": "STM32F205VF",
+    "openocd_target": "stm32f2x",
+    "svd_path": "STM32F205.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32F205VFTx (128.0k RAM 768.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 131072,
+    "maximum_size": 786432,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32F205VFTx",
+  "vendor": "Generic"
+}

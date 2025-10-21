@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32F401xC -DSTM32F4",
+    "f_cpu": "84000000L",
+    "mcu": "STM32F401CBUx",
+    "product_line": "STM32F401xC",
+    "variant": "STM32F4xx/F401CC(F-U-Y)_F401C(B-D-E)(U-Y)"
+  },
+  "debug": {
+    "jlink_device": "STM32F401CB",
+    "openocd_target": "stm32f4x",
+    "svd_path": "STM32F401.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32F401CBUx (64.0k RAM 128.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 65536,
+    "maximum_size": 131072,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32F401CBUx",
+  "vendor": "Generic"
+}

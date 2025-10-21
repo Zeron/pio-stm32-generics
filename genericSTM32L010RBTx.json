@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m0plus",
+    "extra_flags": "-DSTM32L010xB -DSTM32L0",
+    "f_cpu": "32000000L",
+    "mcu": "STM32L010RBTx",
+    "product_line": "STM32L010xB",
+    "variant": "STM32L0xx/L010RBT"
+  },
+  "debug": {
+    "jlink_device": "STM32L010RB",
+    "openocd_target": "stm32l0",
+    "svd_path": "STM32L0x0.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32L010RBTx (20.0k RAM 128.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 20480,
+    "maximum_size": 131072,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32L010RBTx",
+  "vendor": "Generic"
+}

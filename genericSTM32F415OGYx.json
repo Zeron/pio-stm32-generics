@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32F415xx -DSTM32F4",
+    "f_cpu": "168000000L",
+    "mcu": "STM32F415OGYx",
+    "product_line": "STM32F415xx",
+    "variant": "STM32F4xx/F405O(E-G)Y_F415OGY"
+  },
+  "debug": {
+    "jlink_device": "STM32F415OG",
+    "openocd_target": "stm32f4x",
+    "svd_path": "STM32F415.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32F415OGYx (128.0k RAM 1024.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 131072,
+    "maximum_size": 1048576,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32F415OGYx",
+  "vendor": "Generic"
+}

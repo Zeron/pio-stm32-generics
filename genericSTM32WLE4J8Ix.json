@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32WLE4xx -DSTM32WL",
+    "f_cpu": "48000000L",
+    "mcu": "STM32WLE4J8Ix",
+    "product_line": "STM32WLE4xx",
+    "variant": "STM32WLxx/WL54JCI_WL55JCI_WLE4J(8-B-C)I_WLE5J(8-B-C)I"
+  },
+  "debug": {
+    "jlink_device": "STM32WLE4J8",
+    "openocd_target": "stm32wlx",
+    "svd_path": "STM32WLE5_CM4.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32WLE4J8Ix (20.0k RAM 64.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 20480,
+    "maximum_size": 65536,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32WLE4J8Ix",
+  "vendor": "Generic"
+}

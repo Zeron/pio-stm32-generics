@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32G4A1xx -DSTM32G4",
+    "f_cpu": "170000000L",
+    "mcu": "STM32G4A1RETx",
+    "product_line": "STM32G4A1xx",
+    "variant": "STM32G4xx/G491RC(I-T)_G491RE(I-T-Y)x(Z)_G4A1RE(I-T-Y)"
+  },
+  "debug": {
+    "jlink_device": "STM32G4A1RE",
+    "openocd_target": "stm32g4x",
+    "svd_path": "STM32G4A1.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32G4A1RETx (128.0k RAM 512.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 131072,
+    "maximum_size": 524288,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32G4A1RETx",
+  "vendor": "Generic"
+}

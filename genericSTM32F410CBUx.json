@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32F410Cx -DSTM32F4",
+    "f_cpu": "100000000L",
+    "mcu": "STM32F410CBUx",
+    "product_line": "STM32F410Cx",
+    "variant": "STM32F4xx/F410C(8-B)U"
+  },
+  "debug": {
+    "jlink_device": "STM32F410CB",
+    "openocd_target": "stm32f4x",
+    "svd_path": "STM32F410.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32F410CBUx (32.0k RAM 128.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 32768,
+    "maximum_size": 131072,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32F410CBUx",
+  "vendor": "Generic"
+}

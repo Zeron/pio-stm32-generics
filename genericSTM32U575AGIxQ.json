@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m33",
+    "extra_flags": "-DSTM32U575xx -DSTM32U5",
+    "f_cpu": "160000000L",
+    "mcu": "STM32U575AGIxQ",
+    "product_line": "STM32U575xx",
+    "variant": "STM32U5xx/U575A(G-I)IxQ_U585AIIxQ"
+  },
+  "debug": {
+    "jlink_device": "STM32U575AG",
+    "openocd_target": "stm32u5x",
+    "svd_path": "STM32U575.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32U575AGIxQ (786.0k RAM 1024.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 804864,
+    "maximum_size": 1048576,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32U575AGIxQ",
+  "vendor": "Generic"
+}

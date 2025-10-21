@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m0",
+    "extra_flags": "-DSTM32F030xC -DSTM32F0",
+    "f_cpu": "48000000L",
+    "mcu": "STM32F030CCTx",
+    "product_line": "STM32F030xC",
+    "variant": "STM32F0xx/F030CCT"
+  },
+  "debug": {
+    "jlink_device": "STM32F030CC",
+    "openocd_target": "stm32f0x",
+    "svd_path": "STM32F0x0.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32F030CCTx (32.0k RAM 256.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 32768,
+    "maximum_size": 262144,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32F030CCTx",
+  "vendor": "Generic"
+}

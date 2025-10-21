@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m3",
+    "extra_flags": "-DSTM32F101xG -DSTM32F1",
+    "f_cpu": "36000000L",
+    "mcu": "STM32F101VFTx",
+    "product_line": "STM32F101xG",
+    "variant": "STM32F1xx/F101V(F-G)T"
+  },
+  "debug": {
+    "jlink_device": "STM32F101VF",
+    "openocd_target": "stm32f1x",
+    "svd_path": "STM32F101.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32F101VFTx (80.0k RAM 768.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 81920,
+    "maximum_size": 786432,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32F101VFTx",
+  "vendor": "Generic"
+}

@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m7",
+    "extra_flags": "-DSTM32H747xx -DSTM32H7",
+    "f_cpu": "480000000L",
+    "mcu": "STM32H747XIHx",
+    "product_line": "STM32H747xx",
+    "variant": "STM32H7xx/H742X(G-I)H_H743X(G-I)H_H745X(G-I)H_H747X(G-I)H_H750XBH_H753XIH_H755XIH_H757XIH"
+  },
+  "debug": {
+    "jlink_device": "STM32H743XI",
+    "openocd_target": "stm32h7x",
+    "svd_path": "STM32H747_CM7.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32H747XIHx (864.0k RAM 2048.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 884736,
+    "maximum_size": 2097152,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32H747XIHx",
+  "vendor": "Generic"
+}

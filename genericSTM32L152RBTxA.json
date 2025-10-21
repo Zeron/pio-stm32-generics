@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m3",
+    "extra_flags": "-DSTM32L152xBA -DSTM32L1",
+    "f_cpu": "32000000L",
+    "mcu": "STM32L152RBTxA",
+    "product_line": "STM32L152xBA",
+    "variant": "STM32L1xx/L100R(8-B)Tx(A)_L151R(6-8-B)Tx(A)_L152R(6-8-B)Tx(A)"
+  },
+  "debug": {
+    "jlink_device": "STM32L152RB",
+    "openocd_target": "stm32l1",
+    "svd_path": "STM32L152.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32L152RBTxA (32.0k RAM 128.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 32768,
+    "maximum_size": 131072,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32L152RBTxA",
+  "vendor": "Generic"
+}

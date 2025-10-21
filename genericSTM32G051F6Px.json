@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m0plus",
+    "extra_flags": "-DSTM32G051xx -DSTM32G0",
+    "f_cpu": "64000000L",
+    "mcu": "STM32G051F6Px",
+    "product_line": "STM32G051xx",
+    "variant": "STM32G0xx/G051F6P_G051F8(P-Y)_G061F6P_G061F8(P-Y)"
+  },
+  "debug": {
+    "jlink_device": "STM32G051F6",
+    "openocd_target": "stm32g0x",
+    "svd_path": "STM32G051.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32G051F6Px (18.0k RAM 32.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 18432,
+    "maximum_size": 32768,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32G051F6Px",
+  "vendor": "Generic"
+}

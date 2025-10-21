@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32F318xx -DSTM32F3",
+    "f_cpu": "72000000L",
+    "mcu": "STM32F318K8Ux",
+    "product_line": "STM32F318xx",
+    "variant": "STM32F3xx/F318K8U"
+  },
+  "debug": {
+    "jlink_device": "STM32F318K8",
+    "openocd_target": "stm32f3x",
+    "svd_path": "STM32F3x8.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32F318K8Ux (16.0k RAM 64.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 16384,
+    "maximum_size": 65536,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32F318K8Ux",
+  "vendor": "Generic"
+}

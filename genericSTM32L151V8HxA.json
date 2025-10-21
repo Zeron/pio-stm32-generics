@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m3",
+    "extra_flags": "-DSTM32L151xBA -DSTM32L1",
+    "f_cpu": "32000000L",
+    "mcu": "STM32L151V8HxA",
+    "product_line": "STM32L151xBA",
+    "variant": "STM32L1xx/L151V(8-B)(H-T)x(A)_L152V(8-B)(H-T)x(A)"
+  },
+  "debug": {
+    "jlink_device": "STM32L151V8",
+    "openocd_target": "stm32l1",
+    "svd_path": "STM32L151.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32L151V8HxA (32.0k RAM 64.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 32768,
+    "maximum_size": 65536,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32L151V8HxA",
+  "vendor": "Generic"
+}

@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m7",
+    "extra_flags": "-DSTM32H750xx -DSTM32H7",
+    "f_cpu": "480000000L",
+    "mcu": "STM32H750ZBTx",
+    "product_line": "STM32H750xx",
+    "variant": "STM32H7xx/H742Z(G-I)T_H743Z(G-I)T_H747A(G-I)I_H747I(G-I)T_H750ZBT_H753ZIT_H757AII_H757IIT"
+  },
+  "debug": {
+    "jlink_device": "STM32H750ZB",
+    "openocd_target": "stm32h7x",
+    "svd_path": "STM32H750.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32H750ZBTx (864.0k RAM 128.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 884736,
+    "maximum_size": 131072,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32H750ZBTx",
+  "vendor": "Generic"
+}

@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32WB55xx -DSTM32WB",
+    "f_cpu": "64000000L",
+    "mcu": "STM32WB55CEUx",
+    "product_line": "STM32WB55xx",
+    "variant": "STM32WBxx/WB35C(C-E)UxA_WB55C(C-E-G)U"
+  },
+  "debug": {
+    "jlink_device": "STM32WB55CE",
+    "openocd_target": "stm32wbx",
+    "svd_path": "STM32WB55_CM4.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32WB55CEUx (256.0k RAM 512.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 262144,
+    "maximum_size": 524288,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32WB55CEUx",
+  "vendor": "Generic"
+}

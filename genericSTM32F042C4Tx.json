@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m0",
+    "extra_flags": "-DSTM32F042x6 -DSTM32F0",
+    "f_cpu": "48000000L",
+    "mcu": "STM32F042C4Tx",
+    "product_line": "STM32F042x6",
+    "variant": "STM32F0xx/F042C(4-6)(T-U)"
+  },
+  "debug": {
+    "jlink_device": "STM32F042C4",
+    "openocd_target": "stm32f0x",
+    "svd_path": "STM32F0x2.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32F042C4Tx (6.0k RAM 16.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 6144,
+    "maximum_size": 16384,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32F042C4Tx",
+  "vendor": "Generic"
+}

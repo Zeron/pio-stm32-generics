@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32L4S5xx -DSTM32L4",
+    "f_cpu": "120000000L",
+    "mcu": "STM32L4S5QIIx",
+    "product_line": "STM32L4S5xx",
+    "variant": "STM32L4xx/L4R5QGIx(S)_L4R5QIIx(P)_L4S5QII"
+  },
+  "debug": {
+    "jlink_device": "STM32L4S5QI",
+    "openocd_target": "stm32l4x",
+    "svd_path": "STM32L4S5.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32L4S5QIIx (640.0k RAM 2048.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 655360,
+    "maximum_size": 2097152,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32L4S5QIIx",
+  "vendor": "Generic"
+}

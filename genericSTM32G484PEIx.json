@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32G484xx -DSTM32G4",
+    "f_cpu": "170000000L",
+    "mcu": "STM32G484PEIx",
+    "product_line": "STM32G484xx",
+    "variant": "STM32G4xx/G473P(B-C-E)I_G474P(B-C-E)I_G483PEI_G484PEI"
+  },
+  "debug": {
+    "jlink_device": "STM32G484PE",
+    "openocd_target": "stm32g4x",
+    "svd_path": "STM32G484.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32G484PEIx (128.0k RAM 512.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 131072,
+    "maximum_size": 524288,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32G484PEIx",
+  "vendor": "Generic"
+}

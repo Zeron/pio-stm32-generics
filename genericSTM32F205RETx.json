@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m3",
+    "extra_flags": "-DSTM32F205xx -DSTM32F2",
+    "f_cpu": "120000000L",
+    "mcu": "STM32F205RETx",
+    "product_line": "STM32F205xx",
+    "variant": "STM32F2xx/F205RE(T-Y)_F205R(B-C-F)T_F205RG(E-T-Y)_F215R(E-G)T"
+  },
+  "debug": {
+    "jlink_device": "STM32F205RE",
+    "openocd_target": "stm32f2x",
+    "svd_path": "STM32F205.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32F205RETx (128.0k RAM 512.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 131072,
+    "maximum_size": 524288,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32F205RETx",
+  "vendor": "Generic"
+}

@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m0plus",
+    "extra_flags": "-DSTM32L031xx -DSTM32L0",
+    "f_cpu": "32000000L",
+    "mcu": "STM32L031F6Px",
+    "product_line": "STM32L031xx",
+    "variant": "STM32L0xx/L031F(4-6)P_L041F6P"
+  },
+  "debug": {
+    "jlink_device": "STM32L031F6",
+    "openocd_target": "stm32l0",
+    "svd_path": "STM32L0x1.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32L031F6Px (8.0k RAM 32.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 8192,
+    "maximum_size": 32768,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32L031F6Px",
+  "vendor": "Generic"
+}

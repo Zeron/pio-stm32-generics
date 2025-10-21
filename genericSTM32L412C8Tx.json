@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32L412xx -DSTM32L4",
+    "f_cpu": "80000000L",
+    "mcu": "STM32L412C8Tx",
+    "product_line": "STM32L412xx",
+    "variant": "STM32L4xx/L412C(8-B)(T-U)_L422CB(T-U)"
+  },
+  "debug": {
+    "jlink_device": "STM32L412C8",
+    "openocd_target": "stm32l4x",
+    "svd_path": "STM32L412.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32L412C8Tx (40.0k RAM 64.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 40960,
+    "maximum_size": 65536,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32L412C8Tx",
+  "vendor": "Generic"
+}

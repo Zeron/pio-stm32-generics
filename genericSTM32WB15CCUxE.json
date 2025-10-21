@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32WB1Mxx -DSTM32WB",
+    "f_cpu": "64000000L",
+    "mcu": "STM32WB15CCUxE",
+    "product_line": "STM32WB1Mxx",
+    "variant": "STM32WBxx/WB15CCUxE"
+  },
+  "debug": {
+    "jlink_device": "STM32WB15CC",
+    "openocd_target": "stm32wbx",
+    "svd_path": "STM32WB15_CM4.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32WB15CCUxE (48.0k RAM 320.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 49152,
+    "maximum_size": 327680,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32WB15CCUxE",
+  "vendor": "Generic"
+}

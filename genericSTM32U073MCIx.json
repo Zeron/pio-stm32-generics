@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m0plus",
+    "extra_flags": "-DSTM32U073xx -DSTM32L",
+    "f_cpu": "56000000L",
+    "mcu": "STM32U073MCIx",
+    "product_line": "STM32U073xx",
+    "variant": "STM32U0xx/U073M(8-B-C)I_U083MCI"
+  },
+  "debug": {
+    "jlink_device": "STM32U073MC",
+    "openocd_target": "stm32xl",
+    "svd_path": "STM32U073.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32U073MCIx (40.0k RAM 256.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 40960,
+    "maximum_size": 262144,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32U073MCIx",
+  "vendor": "Generic"
+}

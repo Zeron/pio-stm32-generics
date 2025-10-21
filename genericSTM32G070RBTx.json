@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m0plus",
+    "extra_flags": "-DSTM32G070xx -DSTM32G0",
+    "f_cpu": "64000000L",
+    "mcu": "STM32G070RBTx",
+    "product_line": "STM32G070xx",
+    "variant": "STM32G0xx/G070RBT"
+  },
+  "debug": {
+    "jlink_device": "STM32G070RB",
+    "openocd_target": "stm32g0x",
+    "svd_path": "STM32G070.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32G070RBTx (36.0k RAM 128.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 36864,
+    "maximum_size": 131072,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32G070RBTx",
+  "vendor": "Generic"
+}

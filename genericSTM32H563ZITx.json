@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m33",
+    "extra_flags": "-DSTM32H563xx -DSTM32L",
+    "f_cpu": "250000000L",
+    "mcu": "STM32H563ZITx",
+    "product_line": "STM32H563xx",
+    "variant": "STM32H5xx/H563Z(G-I)T_H573ZIT"
+  },
+  "debug": {
+    "jlink_device": "STM32H563ZI",
+    "openocd_target": "stm32xl",
+    "svd_path": "STM32H563.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32H563ZITx (640.0k RAM 2048.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 655360,
+    "maximum_size": 2097152,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32H563ZITx",
+  "vendor": "Generic"
+}

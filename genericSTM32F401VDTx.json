@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32F401xE -DSTM32F4",
+    "f_cpu": "84000000L",
+    "mcu": "STM32F401VDTx",
+    "product_line": "STM32F401xE",
+    "variant": "STM32F4xx/F401V(B-C-D-E)T"
+  },
+  "debug": {
+    "jlink_device": "STM32F401VD",
+    "openocd_target": "stm32f4x",
+    "svd_path": "STM32F401.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32F401VDTx (96.0k RAM 384.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 98304,
+    "maximum_size": 393216,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32F401VDTx",
+  "vendor": "Generic"
+}

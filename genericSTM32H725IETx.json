@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m7",
+    "extra_flags": "-DSTM32H725xx -DSTM32H7",
+    "f_cpu": "550000000L",
+    "mcu": "STM32H725IETx",
+    "product_line": "STM32H725xx",
+    "variant": "STM32H7xx/H725I(E-G)T_H730IBTxQ_H735IGT"
+  },
+  "debug": {
+    "jlink_device": "STM32H725IE",
+    "openocd_target": "stm32h7x",
+    "svd_path": "STM32H725.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32H725IETx (564.0k RAM 512.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 577536,
+    "maximum_size": 524288,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32H725IETx",
+  "vendor": "Generic"
+}

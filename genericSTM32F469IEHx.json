@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32F469xx -DSTM32F4",
+    "f_cpu": "180000000L",
+    "mcu": "STM32F469IEHx",
+    "product_line": "STM32F469xx",
+    "variant": "STM32F4xx/F469I(E-G-I)(H-T)_F479I(G-I)(H-T)"
+  },
+  "debug": {
+    "jlink_device": "STM32F469IE",
+    "openocd_target": "stm32f4x",
+    "svd_path": "STM32F469.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32F469IEHx (320.0k RAM 512.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 327680,
+    "maximum_size": 524288,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32F469IEHx",
+  "vendor": "Generic"
+}

@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m33",
+    "extra_flags": "-DSTM32U5A5xx -DSTM32U5",
+    "f_cpu": "160000000L",
+    "mcu": "STM32U5A5ZJTx",
+    "product_line": "STM32U5A5xx",
+    "variant": "STM32U5xx/U595Z(I-J)T_U5A5ZJT"
+  },
+  "debug": {
+    "jlink_device": "STM32U5A5ZJ",
+    "openocd_target": "stm32u5x",
+    "svd_path": "STM32U5A5.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32U5A5ZJTx (2514.0k RAM 4096.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 2574336,
+    "maximum_size": 4194304,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32U5A5ZJTx",
+  "vendor": "Generic"
+}

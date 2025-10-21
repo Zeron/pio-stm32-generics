@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32L452xx -DSTM32L4",
+    "f_cpu": "80000000L",
+    "mcu": "STM32L452REIx",
+    "product_line": "STM32L452xx",
+    "variant": "STM32L4xx/L452RC(I-T-Y)_L452RE(I-T-Y)x(P)_L462RE(I-T-Y)"
+  },
+  "debug": {
+    "jlink_device": "STM32L452RE",
+    "openocd_target": "stm32l4x",
+    "svd_path": "STM32L452.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32L452REIx (160.0k RAM 512.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 163840,
+    "maximum_size": 524288,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32L452REIx",
+  "vendor": "Generic"
+}

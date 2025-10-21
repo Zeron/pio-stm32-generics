@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m3",
+    "extra_flags": "-DSTM32L151xD -DSTM32L1",
+    "f_cpu": "32000000L",
+    "mcu": "STM32L151ZDTx",
+    "product_line": "STM32L151xD",
+    "variant": "STM32L1xx/L151ZDT_L152ZDT_L162ZDT"
+  },
+  "debug": {
+    "jlink_device": "STM32L151ZD",
+    "openocd_target": "stm32l1",
+    "svd_path": "STM32L151.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32L151ZDTx (48.0k RAM 384.0k Flash)",
+  "upload": {
+    "maximum_ram_size": 49152,
+    "maximum_size": 393216,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "cmsis-dap",
+      "dfu",
+      "jlink",
+      "serial",
+      "stlink"
+    ]
+  },
+  "url": "https://www.google.com/search?q=STM32L151ZDTx",
+  "vendor": "Generic"
+}
