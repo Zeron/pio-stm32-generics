@@ -9,7 +9,7 @@
     "variant": "STM32F4xx/F410T(8-B)Y"
   },
   "debug": {
-    "jlink_device": "STM32F410T8",
+    "jlink_device": "stm32f410t8",
     "openocd_target": "stm32f4x",
     "svd_path": "STM32F410.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F410T8Yx (32.0k RAM 64.0k Flash)",
+  "name": "STM32F410T8Yx (32k RAM 64k Flash)",
   "upload": {
     "maximum_ram_size": 32768,
     "maximum_size": 65536,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F410T8Yx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f410t8.html",
+  "vendor": "ST"
 }

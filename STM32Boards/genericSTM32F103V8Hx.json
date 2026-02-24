@@ -9,7 +9,7 @@
     "variant": "STM32F1xx/F103V8(H-T)_F103VB(H-I-T)"
   },
   "debug": {
-    "jlink_device": "STM32F103V8",
+    "jlink_device": "stm32f103v8",
     "openocd_target": "stm32f1x",
     "svd_path": "STM32F103.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F103V8Hx (20.0k RAM 64.0k Flash)",
+  "name": "STM32F103V8Hx (20k RAM 64k Flash)",
   "upload": {
     "maximum_ram_size": 20480,
     "maximum_size": 65536,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F103V8Hx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f103v8.html",
+  "vendor": "ST"
 }

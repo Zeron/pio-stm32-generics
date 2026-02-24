@@ -9,7 +9,7 @@
     "variant": "STM32F4xx/F413R(G-H)T_F423RHT"
   },
   "debug": {
-    "jlink_device": "STM32F413RH",
+    "jlink_device": "stm32f413rh",
     "openocd_target": "stm32f4x",
     "svd_path": "STM32F413.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F413RHTx (320.0k RAM 1536.0k Flash)",
+  "name": "STM32F413RHTx (320k RAM 1536k Flash)",
   "upload": {
     "maximum_ram_size": 327680,
     "maximum_size": 1572864,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F413RHTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f413rh.html",
+  "vendor": "ST"
 }

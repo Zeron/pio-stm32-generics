@@ -9,7 +9,7 @@
     "variant": "STM32G0xx/G070CBT"
   },
   "debug": {
-    "jlink_device": "STM32G070CB",
+    "jlink_device": "stm32g070cb",
     "openocd_target": "stm32g0x",
     "svd_path": "STM32G070.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32G070CBTx (36.0k RAM 128.0k Flash)",
+  "name": "STM32G070CBTx (36k RAM 128k Flash)",
   "upload": {
     "maximum_ram_size": 36864,
     "maximum_size": 131072,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32G070CBTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g070cb.html",
+  "vendor": "ST"
 }

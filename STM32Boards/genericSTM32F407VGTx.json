@@ -9,7 +9,7 @@
     "variant": "STM32F4xx/F407V(E-G)T_F417V(E-G)T"
   },
   "debug": {
-    "jlink_device": "STM32F407VG",
+    "jlink_device": "stm32f407vg",
     "openocd_target": "stm32f4x",
     "svd_path": "STM32F407.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F407VGTx (128.0k RAM 1024.0k Flash)",
+  "name": "STM32F407VGTx (192k RAM 1024k Flash)",
   "upload": {
-    "maximum_ram_size": 131072,
+    "maximum_ram_size": 196608,
     "maximum_size": 1048576,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F407VGTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f407vg.html",
+  "vendor": "ST"
 }

@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m0plus",
+    "extra_flags": "-DSTM32C071xx -DSTM32C0",
+    "f_cpu": "48000000L",
+    "mcu": "STM32C071RBTx",
+    "product_line": "STM32C071xx",
+    "variant": "STM32C0xx/C071R(8-B)T"
+  },
+  "debug": {
+    "jlink_device": "stm32c071rb",
+    "openocd_target": "stm32c0x",
+    "svd_path": "STM32C071.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32C071RBTx (24k RAM 128k Flash)",
+  "upload": {
+    "maximum_ram_size": 24576,
+    "maximum_size": 131072,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "dfu",
+      "serial",
+      "stlink",
+      "jlink",
+      "cmsis-dap"
+    ]
+  },
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32c071rb.html",
+  "vendor": "ST"
+}

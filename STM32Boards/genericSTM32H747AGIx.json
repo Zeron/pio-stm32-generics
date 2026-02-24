@@ -1,7 +1,7 @@
 {
   "build": {
     "core": "stm32",
-    "cpu": "cortex-m7",
+    "cpu": "cortex-m4,cortex-m7",
     "extra_flags": "-DSTM32H747xx -DSTM32H7",
     "f_cpu": "480000000L",
     "mcu": "STM32H747AGIx",
@@ -9,7 +9,7 @@
     "variant": "STM32H7xx/H742Z(G-I)T_H743Z(G-I)T_H747A(G-I)I_H747I(G-I)T_H750ZBT_H753ZIT_H757AII_H757IIT"
   },
   "debug": {
-    "jlink_device": "STM32H743ZI",
+    "jlink_device": "STM32F103C4",
     "openocd_target": "stm32h7x",
     "svd_path": "STM32H747_CM7.svd"
   },
@@ -19,20 +19,19 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32H747AGIx (864.0k RAM 1024.0k Flash)",
+  "name": "STM32H747AGIx (1024k RAM 1024k Flash)",
   "upload": {
-    "maximum_ram_size": 884736,
+    "maximum_ram_size": 1048576,
     "maximum_size": 1048576,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32H747AGIx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32h747ag.html",
+  "vendor": "ST"
 }

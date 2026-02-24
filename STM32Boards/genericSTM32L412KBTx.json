@@ -9,7 +9,7 @@
     "variant": "STM32L4xx/L412K(8-B)(T-U)_L422KB(T-U)"
   },
   "debug": {
-    "jlink_device": "STM32L412KB",
+    "jlink_device": "stm32l412kb",
     "openocd_target": "stm32l4x",
     "svd_path": "STM32L412.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L412KBTx (40.0k RAM 128.0k Flash)",
+  "name": "STM32L412KBTx (40k RAM 128k Flash)",
   "upload": {
     "maximum_ram_size": 40960,
     "maximum_size": 131072,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L412KBTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l412kb.html",
+  "vendor": "ST"
 }

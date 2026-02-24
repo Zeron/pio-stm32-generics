@@ -9,7 +9,7 @@
     "variant": "STM32F0xx/F072R8T_F072RB(H-I-T)"
   },
   "debug": {
-    "jlink_device": "STM32F072RB",
+    "jlink_device": "stm32f072rb",
     "openocd_target": "stm32f0x",
     "svd_path": "STM32F0x2.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F072RBTx (16.0k RAM 128.0k Flash)",
+  "name": "STM32F072RBTx (16k RAM 128k Flash)",
   "upload": {
     "maximum_ram_size": 16384,
     "maximum_size": 131072,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F072RBTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f072rb.html",
+  "vendor": "ST"
 }

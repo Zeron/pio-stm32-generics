@@ -1,5 +1,8 @@
 {
   "build": {
+    "arduino": {
+      "board": "GENERIC_L452RETXP"
+    },
     "core": "stm32",
     "cpu": "cortex-m4",
     "extra_flags": "-DSTM32L452xx -DSTM32L4",
@@ -9,7 +12,7 @@
     "variant": "STM32L4xx/L452RETxP"
   },
   "debug": {
-    "jlink_device": "STM32L452RE",
+    "jlink_device": "STM32F103C4",
     "openocd_target": "stm32l4x",
     "svd_path": "STM32L452.svd"
   },
@@ -19,20 +22,19 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L452RETxP (160.0k RAM 512.0k Flash)",
+  "name": "STM32L452RETxP (160k RAM 512k Flash)",
   "upload": {
     "maximum_ram_size": 163840,
     "maximum_size": 524288,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L452RETxP",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l452re.html",
+  "vendor": "ST"
 }

@@ -9,7 +9,7 @@
     "variant": "STM32F7xx/F722R(C-E)T_F730R8T_F732RET"
   },
   "debug": {
-    "jlink_device": "STM32F732RE",
+    "jlink_device": "stm32f732re",
     "openocd_target": "stm32f7x",
     "svd_path": "STM32F732.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F732RETx (192.0k RAM 512.0k Flash)",
+  "name": "STM32F732RETx (256k RAM 512k Flash)",
   "upload": {
-    "maximum_ram_size": 196608,
+    "maximum_ram_size": 262144,
     "maximum_size": 524288,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F732RETx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f732re.html",
+  "vendor": "ST"
 }

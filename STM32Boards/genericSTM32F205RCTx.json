@@ -9,7 +9,7 @@
     "variant": "STM32F2xx/F205RE(T-Y)_F205R(B-C-F)T_F205RG(E-T-Y)_F215R(E-G)T"
   },
   "debug": {
-    "jlink_device": "STM32F205RC",
+    "jlink_device": "stm32f205rc",
     "openocd_target": "stm32f2x",
     "svd_path": "STM32F205.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F205RCTx (96.0k RAM 256.0k Flash)",
+  "name": "STM32F205RCTx (96k RAM 256k Flash)",
   "upload": {
     "maximum_ram_size": 98304,
     "maximum_size": 262144,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F205RCTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f205rc.html",
+  "vendor": "ST"
 }

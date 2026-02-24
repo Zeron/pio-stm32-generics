@@ -2,15 +2,15 @@
   "build": {
     "core": "stm32",
     "cpu": "cortex-m3",
-    "extra_flags": "-DSTM32L152xB -DSTM32L1",
+    "extra_flags": "-DSTM32L152xB -DSTM32L",
     "f_cpu": "32000000L",
     "mcu": "STM32L152C6Ux",
     "product_line": "STM32L152xB",
     "variant": "STM32L1xx/L100C6Ux(A)_L151C(6-8-B)(T-U)x(A)_L152C(6-8-B)(T-U)x(A)"
   },
   "debug": {
-    "jlink_device": "STM32L152C6",
-    "openocd_target": "stm32l1",
+    "jlink_device": "stm32l152c6",
+    "openocd_target": "stm32xl",
     "svd_path": "STM32L152.svd"
   },
   "frameworks": [
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L152C6Ux (10.0k RAM 32.0k Flash)",
+  "name": "STM32L152C6Ux (16k RAM 32k Flash)",
   "upload": {
-    "maximum_ram_size": 10240,
+    "maximum_ram_size": 16384,
     "maximum_size": 32768,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L152C6Ux",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l152c6-a.html",
+  "vendor": "ST"
 }

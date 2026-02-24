@@ -2,15 +2,15 @@
   "build": {
     "core": "stm32",
     "cpu": "cortex-m3",
-    "extra_flags": "-DSTM32L151xB -DSTM32L1",
+    "extra_flags": "-DSTM32L151xB -DSTM32L",
     "f_cpu": "32000000L",
     "mcu": "STM32L151CBUx",
     "product_line": "STM32L151xB",
     "variant": "STM32L1xx/L100C6Ux(A)_L151C(6-8-B)(T-U)x(A)_L152C(6-8-B)(T-U)x(A)"
   },
   "debug": {
-    "jlink_device": "STM32L151CB",
-    "openocd_target": "stm32l1",
+    "jlink_device": "stm32l151cb",
+    "openocd_target": "stm32xl",
     "svd_path": "STM32L151.svd"
   },
   "frameworks": [
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L151CBUx (16.0k RAM 128.0k Flash)",
+  "name": "STM32L151CBUx (16k RAM 128k Flash)",
   "upload": {
     "maximum_ram_size": 16384,
     "maximum_size": 131072,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L151CBUx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l151cb.html",
+  "vendor": "ST"
 }

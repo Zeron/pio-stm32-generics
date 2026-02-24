@@ -9,7 +9,7 @@
     "variant": "STM32F4xx/F427Z(G-I)T_F429ZET_F429Z(G-I)(T-Y)_F437Z(G-I)T_F439Z(G-I)(T-Y)"
   },
   "debug": {
-    "jlink_device": "STM32F429ZI",
+    "jlink_device": "stm32f429zi",
     "openocd_target": "stm32f4x",
     "svd_path": "STM32F429.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F429ZIYx (192.0k RAM 2048.0k Flash)",
+  "name": "STM32F429ZIYx (256k RAM 2048k Flash)",
   "upload": {
-    "maximum_ram_size": 196608,
+    "maximum_ram_size": 262144,
     "maximum_size": 2097152,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F429ZIYx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f429zi.html",
+  "vendor": "ST"
 }

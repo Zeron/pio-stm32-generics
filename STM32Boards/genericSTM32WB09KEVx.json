@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m0plus",
+    "extra_flags": "-DSTM32WB09 -DSTM32WB",
+    "f_cpu": "64000000L",
+    "mcu": "STM32WB09KEVx",
+    "product_line": "STM32WB09",
+    "variant": "STM32WB0x/WB05KZV_WB05TZF_WB09KEV_WB09TEF"
+  },
+  "debug": {
+    "jlink_device": "stm32wb09ke",
+    "openocd_target": "stm32wbx",
+    "svd_path": "STM32WB09.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32WB09KEVx (64k RAM 512k Flash)",
+  "upload": {
+    "maximum_ram_size": 65536,
+    "maximum_size": 524288,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "dfu",
+      "serial",
+      "stlink",
+      "jlink",
+      "cmsis-dap"
+    ]
+  },
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32wb09ke.html",
+  "vendor": "ST"
+}

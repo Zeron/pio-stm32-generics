@@ -9,7 +9,7 @@
     "variant": "STM32G0xx/G0B1C(B-C-E)(T-U)_G0C1C(C-E)(T-U)"
   },
   "debug": {
-    "jlink_device": "STM32G0C1CC",
+    "jlink_device": "stm32g0c1cc",
     "openocd_target": "stm32g0x",
     "svd_path": "STM32G0C1.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32G0C1CCTx (144.0k RAM 256.0k Flash)",
+  "name": "STM32G0C1CCTx (144k RAM 256k Flash)",
   "upload": {
     "maximum_ram_size": 147456,
     "maximum_size": 262144,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32G0C1CCTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g0c1cc.html",
+  "vendor": "ST"
 }

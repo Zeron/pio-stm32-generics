@@ -1,0 +1,40 @@
+{
+  "build": {
+    "arduino": {
+      "board": "GENERIC_U595ZITXQ"
+    },
+    "core": "stm32",
+    "cpu": "cortex-m33",
+    "extra_flags": "-DSTM32U595xx -DSTM32U5",
+    "f_cpu": "160000000L",
+    "mcu": "STM32U595ZITxQ",
+    "product_line": "STM32U595xx",
+    "variant": "STM32U5xx/U595Z(I-J)TxQ_U599Z(I-J)TxQ_U5A5ZJTxQ_U5A9ZJTxQ"
+  },
+  "debug": {
+    "jlink_device": "STM32F103C4",
+    "openocd_target": "stm32u5x",
+    "svd_path": "STM32U595.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32U595ZITxQ (2514k RAM 2048k Flash)",
+  "upload": {
+    "maximum_ram_size": 2574336,
+    "maximum_size": 2097152,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "dfu",
+      "serial",
+      "stlink",
+      "cmsis-dap"
+    ]
+  },
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32u595zi.html",
+  "vendor": "ST"
+}

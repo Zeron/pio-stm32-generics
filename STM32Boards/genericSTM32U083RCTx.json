@@ -2,15 +2,15 @@
   "build": {
     "core": "stm32",
     "cpu": "cortex-m0plus",
-    "extra_flags": "-DSTM32U083xx -DSTM32L",
+    "extra_flags": "-DSTM32U083xx -DSTM32U0",
     "f_cpu": "56000000L",
     "mcu": "STM32U083RCTx",
     "product_line": "STM32U083xx",
     "variant": "STM32U0xx/U073R(8-B-C)(I-T)_U083RC(I-T)"
   },
   "debug": {
-    "jlink_device": "STM32U083RC",
-    "openocd_target": "stm32xl",
+    "jlink_device": "stm32u083rc",
+    "openocd_target": "stm32u0x",
     "svd_path": "STM32U083.svd"
   },
   "frameworks": [
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32U083RCTx (40.0k RAM 256.0k Flash)",
+  "name": "STM32U083RCTx (40k RAM 256k Flash)",
   "upload": {
     "maximum_ram_size": 40960,
     "maximum_size": 262144,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32U083RCTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32u083rc.html",
+  "vendor": "ST"
 }

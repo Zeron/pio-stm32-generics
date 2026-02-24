@@ -9,7 +9,7 @@
     "variant": "STM32L4xx/L475V(C-E-G)T_L476V(C-E-G)T_L486VGT"
   },
   "debug": {
-    "jlink_device": "STM32L475VE",
+    "jlink_device": "stm32l475ve",
     "openocd_target": "stm32l4x",
     "svd_path": "STM32L475.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L475VETx (128.0k RAM 512.0k Flash)",
+  "name": "STM32L475VETx (128k RAM 512k Flash)",
   "upload": {
     "maximum_ram_size": 131072,
     "maximum_size": 524288,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L475VETx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l475ve.html",
+  "vendor": "ST"
 }

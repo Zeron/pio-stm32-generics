@@ -2,15 +2,15 @@
   "build": {
     "core": "stm32",
     "cpu": "cortex-m0plus",
-    "extra_flags": "-DSTM32L053xx -DSTM32L0",
+    "extra_flags": "-DSTM32L053xx -DSTM32L",
     "f_cpu": "32000000L",
     "mcu": "STM32L053R6Hx",
     "product_line": "STM32L053xx",
     "variant": "STM32L0xx/L052R(6-8)H_L053R(6-8)H"
   },
   "debug": {
-    "jlink_device": "STM32L053R6",
-    "openocd_target": "stm32l0",
+    "jlink_device": "stm32l053r6",
+    "openocd_target": "stm32xl",
     "svd_path": "STM32L053.svd"
   },
   "frameworks": [
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L053R6Hx (8.0k RAM 32.0k Flash)",
+  "name": "STM32L053R6Hx (8k RAM 32k Flash)",
   "upload": {
     "maximum_ram_size": 8192,
     "maximum_size": 32768,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L053R6Hx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l053r6.html",
+  "vendor": "ST"
 }

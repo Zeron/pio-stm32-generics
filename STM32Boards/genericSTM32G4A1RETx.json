@@ -9,7 +9,7 @@
     "variant": "STM32G4xx/G491RC(I-T)_G491RE(I-T-Y)x(Z)_G4A1RE(I-T-Y)"
   },
   "debug": {
-    "jlink_device": "STM32G4A1RE",
+    "jlink_device": "stm32g4a1re",
     "openocd_target": "stm32g4x",
     "svd_path": "STM32G4A1.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32G4A1RETx (128.0k RAM 512.0k Flash)",
+  "name": "STM32G4A1RETx (112k RAM 512k Flash)",
   "upload": {
-    "maximum_ram_size": 131072,
+    "maximum_ram_size": 114688,
     "maximum_size": 524288,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32G4A1RETx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g4a1re.html",
+  "vendor": "ST"
 }

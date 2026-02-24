@@ -9,7 +9,7 @@
     "variant": "STM32H5xx/H562R(G-I)T"
   },
   "debug": {
-    "jlink_device": "STM32H562RI",
+    "jlink_device": "stm32h562ri",
     "openocd_target": "stm32xl",
     "svd_path": "STM32H562.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32H562RITx (640.0k RAM 2048.0k Flash)",
+  "name": "STM32H562RITx (640k RAM 2048k Flash)",
   "upload": {
     "maximum_ram_size": 655360,
     "maximum_size": 2097152,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32H562RITx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32h562ri.html",
+  "vendor": "ST"
 }

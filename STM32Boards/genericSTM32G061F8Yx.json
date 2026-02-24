@@ -9,7 +9,7 @@
     "variant": "STM32G0xx/G051F6P_G051F8(P-Y)_G061F6P_G061F8(P-Y)"
   },
   "debug": {
-    "jlink_device": "STM32G061F8",
+    "jlink_device": "stm32g061f8",
     "openocd_target": "stm32g0x",
     "svd_path": "STM32G061.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32G061F8Yx (18.0k RAM 64.0k Flash)",
+  "name": "STM32G061F8Yx (18k RAM 64k Flash)",
   "upload": {
     "maximum_ram_size": 18432,
     "maximum_size": 65536,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32G061F8Yx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g061f8.html",
+  "vendor": "ST"
 }

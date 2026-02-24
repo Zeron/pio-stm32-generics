@@ -9,7 +9,7 @@
     "variant": "STM32H5xx/H503RBT"
   },
   "debug": {
-    "jlink_device": "STM32H503RB",
+    "jlink_device": "stm32h503rb",
     "openocd_target": "stm32xl",
     "svd_path": "STM32H503.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32H503RBTx (32.0k RAM 128.0k Flash)",
+  "name": "STM32H503RBTx (32k RAM 128k Flash)",
   "upload": {
     "maximum_ram_size": 32768,
     "maximum_size": 131072,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32H503RBTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32h503rb.html",
+  "vendor": "ST"
 }

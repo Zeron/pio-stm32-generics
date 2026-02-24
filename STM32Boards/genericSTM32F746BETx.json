@@ -9,7 +9,7 @@
     "variant": "STM32F7xx/F746B(E-G)T_F746N(E-G)H_F750N8H_F756BGT_F756NGH"
   },
   "debug": {
-    "jlink_device": "STM32F746BE",
+    "jlink_device": "stm32f746be",
     "openocd_target": "stm32f7x",
     "svd_path": "STM32F746.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F746BETx (320.0k RAM 512.0k Flash)",
+  "name": "STM32F746BETx (320k RAM 512k Flash)",
   "upload": {
     "maximum_ram_size": 327680,
     "maximum_size": 524288,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F746BETx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f746be.html",
+  "vendor": "ST"
 }

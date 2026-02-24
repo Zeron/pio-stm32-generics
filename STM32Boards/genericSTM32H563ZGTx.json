@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m33",
+    "extra_flags": "-DSTM32H563xx -DSTM32L",
+    "f_cpu": "250000000L",
+    "mcu": "STM32H563ZGTx",
+    "product_line": "STM32H563xx",
+    "variant": "STM32H5xx/H563Z(G-I)T_H573ZIT"
+  },
+  "debug": {
+    "jlink_device": "stm32h563zg",
+    "openocd_target": "stm32xl",
+    "svd_path": "STM32H563.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32H563ZGTx (640k RAM 1024k Flash)",
+  "upload": {
+    "maximum_ram_size": 655360,
+    "maximum_size": 1048576,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "dfu",
+      "serial",
+      "stlink",
+      "jlink",
+      "cmsis-dap"
+    ]
+  },
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32h563zg.html",
+  "vendor": "ST"
+}

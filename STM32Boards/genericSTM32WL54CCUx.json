@@ -9,7 +9,7 @@
     "variant": "STM32WLxx/WL54CCU_WL55CCU_WLE4C(8-B-C)U_WLE5C(8-B-C)U"
   },
   "debug": {
-    "jlink_device": "",
+    "jlink_device": "STM32F103C4",
     "openocd_target": "stm32wlx",
     "svd_path": "STM32WL5x_CM4.svd"
   },
@@ -19,20 +19,19 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32WL54CCUx (64.0k RAM 256.0k Flash)",
+  "name": "STM32WL54CCUx (64k RAM 256k Flash)",
   "upload": {
     "maximum_ram_size": 65536,
     "maximum_size": 262144,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32WL54CCUx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32wl54cc.html",
+  "vendor": "ST"
 }

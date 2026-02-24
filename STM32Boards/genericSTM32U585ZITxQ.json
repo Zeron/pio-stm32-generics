@@ -1,5 +1,8 @@
 {
   "build": {
+    "arduino": {
+      "board": "GENERIC_U585ZITXQ"
+    },
     "core": "stm32",
     "cpu": "cortex-m33",
     "extra_flags": "-DSTM32U585xx -DSTM32U5",
@@ -9,7 +12,7 @@
     "variant": "STM32U5xx/U575Z(G-I)TxQ_U585ZITxQ"
   },
   "debug": {
-    "jlink_device": "STM32U585ZI",
+    "jlink_device": "STM32F103C4",
     "openocd_target": "stm32u5x",
     "svd_path": "STM32U585.svd"
   },
@@ -19,20 +22,19 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32U585ZITxQ (786.0k RAM 2048.0k Flash)",
+  "name": "STM32U585ZITxQ (786k RAM 2048k Flash)",
   "upload": {
     "maximum_ram_size": 804864,
     "maximum_size": 2097152,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32U585ZITxQ",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32u585zi.html",
+  "vendor": "ST"
 }

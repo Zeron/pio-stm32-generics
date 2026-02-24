@@ -1,5 +1,8 @@
 {
   "build": {
+    "arduino": {
+      "board": "GENERIC_H7A3ZITXQ"
+    },
     "core": "stm32",
     "cpu": "cortex-m7",
     "extra_flags": "-DSTM32H7A3xxQ -DSTM32H7",
@@ -9,7 +12,7 @@
     "variant": "STM32H7xx/H7A3Z(G-I)TxQ_H7B3ZITxQ"
   },
   "debug": {
-    "jlink_device": "STM32H7A3ZI",
+    "jlink_device": "STM32F103C4",
     "openocd_target": "stm32h7x",
     "svd_path": "STM32H7A3.svd"
   },
@@ -19,20 +22,19 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32H7A3ZITxQ (1424.0k RAM 2048.0k Flash)",
+  "name": "STM32H7A3ZITxQ (1184k RAM 2048k Flash)",
   "upload": {
-    "maximum_ram_size": 1458176,
+    "maximum_ram_size": 1212416,
     "maximum_size": 2097152,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32H7A3ZITxQ",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32h7a3zi.html",
+  "vendor": "ST"
 }

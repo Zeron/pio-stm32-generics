@@ -2,15 +2,15 @@
   "build": {
     "core": "stm32",
     "cpu": "cortex-m0plus",
-    "extra_flags": "-DSTM32L041xx -DSTM32L0",
+    "extra_flags": "-DSTM32L041xx -DSTM32L",
     "f_cpu": "32000000L",
     "mcu": "STM32L041C6Ux",
     "product_line": "STM32L041xx",
     "variant": "STM32L0xx/L031C(4-6)(T-U)_L041C4T_L041C6(T-U)"
   },
   "debug": {
-    "jlink_device": "STM32L041C6",
-    "openocd_target": "stm32l0",
+    "jlink_device": "stm32l041c6",
+    "openocd_target": "stm32xl",
     "svd_path": "STM32L0x1.svd"
   },
   "frameworks": [
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L041C6Ux (8.0k RAM 32.0k Flash)",
+  "name": "STM32L041C6Ux (8k RAM 32k Flash)",
   "upload": {
     "maximum_ram_size": 8192,
     "maximum_size": 32768,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L041C6Ux",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l041c6.html",
+  "vendor": "ST"
 }

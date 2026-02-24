@@ -9,7 +9,7 @@
     "variant": "STM32H7xx/H7A3V(G-I)(H-T)_H7B0VBT_H7B3VI(H-T)"
   },
   "debug": {
-    "jlink_device": "STM32H7B0VB",
+    "jlink_device": "stm32h7b0vb",
     "openocd_target": "stm32h7x",
     "svd_path": "STM32H7B0.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32H7B0VBTx (1424.0k RAM 128.0k Flash)",
+  "name": "STM32H7B0VBTx (1184k RAM 128k Flash)",
   "upload": {
-    "maximum_ram_size": 1458176,
+    "maximum_ram_size": 1212416,
     "maximum_size": 131072,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32H7B0VBTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32h7b0vb.html",
+  "vendor": "ST"
 }

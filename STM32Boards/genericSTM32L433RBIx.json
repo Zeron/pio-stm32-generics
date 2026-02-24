@@ -9,7 +9,7 @@
     "variant": "STM32L4xx/L433R(B-C)(I-T-Y)_L443RC(I-T-Y)"
   },
   "debug": {
-    "jlink_device": "STM32L433RB",
+    "jlink_device": "stm32l433rb",
     "openocd_target": "stm32l4x",
     "svd_path": "STM32L433.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L433RBIx (64.0k RAM 128.0k Flash)",
+  "name": "STM32L433RBIx (64k RAM 128k Flash)",
   "upload": {
     "maximum_ram_size": 65536,
     "maximum_size": 131072,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L433RBIx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l433rb.html",
+  "vendor": "ST"
 }

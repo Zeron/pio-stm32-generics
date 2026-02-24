@@ -1,5 +1,8 @@
 {
   "build": {
+    "arduino": {
+      "board": "GENERIC_H573IIKXQ"
+    },
     "core": "stm32",
     "cpu": "cortex-m33",
     "extra_flags": "-DSTM32H573xx -DSTM32L",
@@ -9,7 +12,7 @@
     "variant": "STM32H5xx/H563IIKxQ_H573IIKxQ"
   },
   "debug": {
-    "jlink_device": "STM32H573II",
+    "jlink_device": "STM32F103C4",
     "openocd_target": "stm32xl",
     "svd_path": "STM32H573.svd"
   },
@@ -19,20 +22,19 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32H573IIKxQ (640.0k RAM 2048.0k Flash)",
+  "name": "STM32H573IIKxQ (640k RAM 2048k Flash)",
   "upload": {
     "maximum_ram_size": 655360,
     "maximum_size": 2097152,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32H573IIKxQ",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32h573ii.html",
+  "vendor": "ST"
 }

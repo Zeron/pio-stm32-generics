@@ -9,7 +9,7 @@
     "variant": "STM32F1xx/F101V(8-B)T"
   },
   "debug": {
-    "jlink_device": "STM32F101VB",
+    "jlink_device": "stm32f101vb",
     "openocd_target": "stm32f1x",
     "svd_path": "STM32F101.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F101VBTx (16.0k RAM 128.0k Flash)",
+  "name": "STM32F101VBTx (16k RAM 128k Flash)",
   "upload": {
     "maximum_ram_size": 16384,
     "maximum_size": 131072,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F101VBTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f101vb.html",
+  "vendor": "ST"
 }

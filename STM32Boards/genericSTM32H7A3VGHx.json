@@ -9,7 +9,7 @@
     "variant": "STM32H7xx/H7A3V(G-I)(H-T)_H7B0VBT_H7B3VI(H-T)"
   },
   "debug": {
-    "jlink_device": "STM32H7A3VG",
+    "jlink_device": "stm32h7a3vg",
     "openocd_target": "stm32h7x",
     "svd_path": "STM32H7A3.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32H7A3VGHx (1424.0k RAM 1024.0k Flash)",
+  "name": "STM32H7A3VGHx (1184k RAM 1024k Flash)",
   "upload": {
-    "maximum_ram_size": 1458176,
+    "maximum_ram_size": 1212416,
     "maximum_size": 1048576,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32H7A3VGHx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32h7a3vg.html",
+  "vendor": "ST"
 }

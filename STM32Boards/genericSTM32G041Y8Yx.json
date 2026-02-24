@@ -9,7 +9,7 @@
     "variant": "STM32G0xx/G031F(4-6-8)P_G031Y8Y_G041F(6-8)P_G041Y8Y"
   },
   "debug": {
-    "jlink_device": "STM32G041Y8",
+    "jlink_device": "stm32g041y8",
     "openocd_target": "stm32g0x",
     "svd_path": "STM32G041.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32G041Y8Yx (8.0k RAM 64.0k Flash)",
+  "name": "STM32G041Y8Yx (8k RAM 64k Flash)",
   "upload": {
     "maximum_ram_size": 8192,
     "maximum_size": 65536,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32G041Y8Yx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g041y8.html",
+  "vendor": "ST"
 }

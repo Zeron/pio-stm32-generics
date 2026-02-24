@@ -9,7 +9,7 @@
     "variant": "STM32G4xx/G473C(B-C-E)U_G474C(B-C-E)U_G483CEU_G484CEU"
   },
   "debug": {
-    "jlink_device": "STM32G474CE",
+    "jlink_device": "stm32g474ce",
     "openocd_target": "stm32g4x",
     "svd_path": "STM32G474.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32G474CEUx (128.0k RAM 512.0k Flash)",
+  "name": "STM32G474CEUx (128k RAM 512k Flash)",
   "upload": {
     "maximum_ram_size": 131072,
     "maximum_size": 524288,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32G474CEUx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g474ce.html",
+  "vendor": "ST"
 }

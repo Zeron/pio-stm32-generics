@@ -9,7 +9,7 @@
     "variant": "STM32F3xx/F318C8(T-Y)"
   },
   "debug": {
-    "jlink_device": "STM32F318C8",
+    "jlink_device": "stm32f318c8",
     "openocd_target": "stm32f3x",
     "svd_path": "STM32F3x8.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F318C8Tx (16.0k RAM 64.0k Flash)",
+  "name": "STM32F318C8Tx (16k RAM 64k Flash)",
   "upload": {
     "maximum_ram_size": 16384,
     "maximum_size": 65536,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F318C8Tx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f318c8.html",
+  "vendor": "ST"
 }

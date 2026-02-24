@@ -1,4 +1,5 @@
 {
+  "_Generated": "2025-11-06 13:23:47",
   "build": {
     "core": "stm32",
     "cpu": "cortex-m4",
@@ -9,7 +10,7 @@
     "variant": "STM32G4xx/G471V(C-E)(H-I-T)"
   },
   "debug": {
-    "jlink_device": "STM32G471VE",
+    "jlink_device": "stm32g471ve",
     "openocd_target": "stm32g4x",
     "svd_path": "STM32G471.svd"
   },
@@ -19,20 +20,18 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32G471VEHx (128.0k RAM 512.0k Flash)",
+  "name": "STM32G471VEHx",
   "upload": {
-    "maximum_ram_size": 131072,
-    "maximum_size": 524288,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
   "url": "https://www.google.com/search?q=STM32G471VEHx",
-  "vendor": "Generic"
+  "vendor": "ST"
 }

@@ -9,7 +9,7 @@
     "variant": "STM32L4xx/L4R5V(G-I)T_L4R7VIT_L4S5VIT_L4S7VIT"
   },
   "debug": {
-    "jlink_device": "STM32L4R5VG",
+    "jlink_device": "stm32l4r5vg",
     "openocd_target": "stm32l4x",
     "svd_path": "STM32L4R5.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L4R5VGTx (640.0k RAM 1024.0k Flash)",
+  "name": "STM32L4R5VGTx (640k RAM 1024k Flash)",
   "upload": {
     "maximum_ram_size": 655360,
     "maximum_size": 1048576,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L4R5VGTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l4r5vg.html",
+  "vendor": "ST"
 }

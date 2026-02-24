@@ -9,7 +9,7 @@
     "variant": "STM32L4xx/L433C(B-C)(T-U)_L443CC(T-U)"
   },
   "debug": {
-    "jlink_device": "STM32L433CB",
+    "jlink_device": "stm32l433cb",
     "openocd_target": "stm32l4x",
     "svd_path": "STM32L433.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L433CBUx (64.0k RAM 128.0k Flash)",
+  "name": "STM32L433CBUx (64k RAM 128k Flash)",
   "upload": {
     "maximum_ram_size": 65536,
     "maximum_size": 131072,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L433CBUx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l433cb.html",
+  "vendor": "ST"
 }

@@ -9,7 +9,7 @@
     "variant": "STM32L4xx/L4R5Z(G-I)T_L4R7ZIT_L4S5ZIT_L4S7ZIT"
   },
   "debug": {
-    "jlink_device": "STM32L4R5ZI",
+    "jlink_device": "stm32l4r5zi",
     "openocd_target": "stm32l4x",
     "svd_path": "STM32L4R5.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L4R5ZITx (640.0k RAM 2048.0k Flash)",
+  "name": "STM32L4R5ZITx (640k RAM 2048k Flash)",
   "upload": {
     "maximum_ram_size": 655360,
     "maximum_size": 2097152,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L4R5ZITx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l4r5zi.html",
+  "vendor": "ST"
 }

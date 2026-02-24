@@ -9,7 +9,7 @@
     "variant": "STM32WBxx/WB55R(C-E-G)V"
   },
   "debug": {
-    "jlink_device": "STM32WB55RG",
+    "jlink_device": "stm32wb55rg",
     "openocd_target": "stm32wbx",
     "svd_path": "STM32WB55_CM4.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32WB55RGVx (256.0k RAM 1024.0k Flash)",
+  "name": "STM32WB55RGVx (256k RAM 1024k Flash)",
   "upload": {
     "maximum_ram_size": 262144,
     "maximum_size": 1048576,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32WB55RGVx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32wb55rg.html",
+  "vendor": "ST"
 }

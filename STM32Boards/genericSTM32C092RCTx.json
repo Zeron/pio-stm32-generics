@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m0plus",
+    "extra_flags": "-DSTM32C092xx -DSTM32C0",
+    "f_cpu": "48000000L",
+    "mcu": "STM32C092RCTx",
+    "product_line": "STM32C092xx",
+    "variant": "STM32C0xx/C092CBT_C092RBT_C092RC(I-T)"
+  },
+  "debug": {
+    "jlink_device": "stm32c092rc",
+    "openocd_target": "stm32c0x",
+    "svd_path": "STM32C092.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32C092RCTx (30k RAM 256k Flash)",
+  "upload": {
+    "maximum_ram_size": 30720,
+    "maximum_size": 262144,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "dfu",
+      "serial",
+      "stlink",
+      "jlink",
+      "cmsis-dap"
+    ]
+  },
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32c092rc.html",
+  "vendor": "ST"
+}

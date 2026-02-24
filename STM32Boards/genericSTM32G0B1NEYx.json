@@ -9,7 +9,7 @@
     "variant": "STM32G0xx/G0B1NEY_G0C1NEY"
   },
   "debug": {
-    "jlink_device": "STM32G0B1NE",
+    "jlink_device": "stm32g0b1ne",
     "openocd_target": "stm32g0x",
     "svd_path": "STM32G0B1.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32G0B1NEYx (144.0k RAM 512.0k Flash)",
+  "name": "STM32G0B1NEYx (144k RAM 512k Flash)",
   "upload": {
     "maximum_ram_size": 147456,
     "maximum_size": 524288,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32G0B1NEYx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g0b1ne.html",
+  "vendor": "ST"
 }

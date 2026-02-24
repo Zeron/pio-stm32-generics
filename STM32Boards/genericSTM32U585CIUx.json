@@ -9,7 +9,7 @@
     "variant": "STM32U5xx/U575C(G-I)(T-U)_U585CI(T-U)"
   },
   "debug": {
-    "jlink_device": "STM32U585CI",
+    "jlink_device": "stm32u585ci",
     "openocd_target": "stm32u5x",
     "svd_path": "STM32U585.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32U585CIUx (786.0k RAM 2048.0k Flash)",
+  "name": "STM32U585CIUx (786k RAM 2048k Flash)",
   "upload": {
     "maximum_ram_size": 804864,
     "maximum_size": 2097152,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32U585CIUx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32u585ci.html",
+  "vendor": "ST"
 }

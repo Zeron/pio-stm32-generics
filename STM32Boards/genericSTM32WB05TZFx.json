@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m0plus",
+    "extra_flags": "-DSTM32WB05 -DSTM32WB",
+    "f_cpu": "64000000L",
+    "mcu": "STM32WB05TZFx",
+    "product_line": "STM32WB05",
+    "variant": "STM32WB0x/WB05KZV_WB05TZF_WB09KEV_WB09TEF"
+  },
+  "debug": {
+    "jlink_device": "stm32wb05tz",
+    "openocd_target": "stm32wbx",
+    "svd_path": "STM32WB05.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32WB05TZFx (24k RAM 192k Flash)",
+  "upload": {
+    "maximum_ram_size": 24576,
+    "maximum_size": 196608,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "dfu",
+      "serial",
+      "stlink",
+      "jlink",
+      "cmsis-dap"
+    ]
+  },
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32wb05tz.html",
+  "vendor": "ST"
+}

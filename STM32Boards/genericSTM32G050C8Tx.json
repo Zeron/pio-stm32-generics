@@ -9,7 +9,7 @@
     "variant": "STM32G0xx/G050C(6-8)T"
   },
   "debug": {
-    "jlink_device": "STM32G050C8",
+    "jlink_device": "stm32g050c8",
     "openocd_target": "stm32g0x",
     "svd_path": "STM32G050.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32G050C8Tx (18.0k RAM 64.0k Flash)",
+  "name": "STM32G050C8Tx (18k RAM 64k Flash)",
   "upload": {
     "maximum_ram_size": 18432,
     "maximum_size": 65536,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32G050C8Tx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g050c8.html",
+  "vendor": "ST"
 }

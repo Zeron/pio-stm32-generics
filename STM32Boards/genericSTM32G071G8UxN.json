@@ -1,5 +1,8 @@
 {
   "build": {
+    "arduino": {
+      "board": "GENERIC_G071G8UXN"
+    },
     "core": "stm32",
     "cpu": "cortex-m0plus",
     "extra_flags": "-DSTM32G071xx -DSTM32G0",
@@ -9,7 +12,7 @@
     "variant": "STM32G0xx/G071G(8-B)UxN_G081GBUxN"
   },
   "debug": {
-    "jlink_device": "STM32G071G8",
+    "jlink_device": "STM32F103C4",
     "openocd_target": "stm32g0x",
     "svd_path": "STM32G071.svd"
   },
@@ -19,20 +22,19 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32G071G8UxN (36.0k RAM 64.0k Flash)",
+  "name": "STM32G071G8UxN (36k RAM 64k Flash)",
   "upload": {
     "maximum_ram_size": 36864,
     "maximum_size": 65536,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32G071G8UxN",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g071g8.html",
+  "vendor": "ST"
 }

@@ -9,7 +9,7 @@
     "variant": "STM32F1xx/F103V(F-G)T"
   },
   "debug": {
-    "jlink_device": "STM32F103VF",
+    "jlink_device": "stm32f103vf",
     "openocd_target": "stm32f1x",
     "svd_path": "STM32F103.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F103VFTx (96.0k RAM 768.0k Flash)",
+  "name": "STM32F103VFTx (96k RAM 768k Flash)",
   "upload": {
     "maximum_ram_size": 98304,
     "maximum_size": 786432,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F103VFTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f103vf.html",
+  "vendor": "ST"
 }

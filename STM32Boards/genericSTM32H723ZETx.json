@@ -9,7 +9,7 @@
     "variant": "STM32H7xx/H723Z(E-G)T_H730ZBT_H733ZGT"
   },
   "debug": {
-    "jlink_device": "STM32H723ZE",
+    "jlink_device": "stm32h723ze",
     "openocd_target": "stm32h7x",
     "svd_path": "STM32H723.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32H723ZETx (564.0k RAM 512.0k Flash)",
+  "name": "STM32H723ZETx (564k RAM 512k Flash)",
   "upload": {
     "maximum_ram_size": 577536,
     "maximum_size": 524288,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32H723ZETx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32h723ze.html",
+  "vendor": "ST"
 }

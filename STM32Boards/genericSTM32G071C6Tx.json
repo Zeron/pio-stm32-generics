@@ -1,4 +1,5 @@
 {
+  "_Generated": "2025-11-06 13:23:48",
   "build": {
     "core": "stm32",
     "cpu": "cortex-m0plus",
@@ -9,7 +10,7 @@
     "variant": "STM32G0xx/G071C(6-8-B)(T-U)_G081CB(T-U)"
   },
   "debug": {
-    "jlink_device": "STM32G071C6",
+    "jlink_device": "stm32g071c6",
     "openocd_target": "stm32g0x",
     "svd_path": "STM32G071.svd"
   },
@@ -19,20 +20,18 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32G071C6Tx (36.0k RAM 32.0k Flash)",
+  "name": "STM32G071C6Tx",
   "upload": {
-    "maximum_ram_size": 36864,
-    "maximum_size": 32768,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
   "url": "https://www.google.com/search?q=STM32G071C6Tx",
-  "vendor": "Generic"
+  "vendor": "ST"
 }

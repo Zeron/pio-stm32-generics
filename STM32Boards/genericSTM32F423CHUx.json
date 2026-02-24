@@ -9,7 +9,7 @@
     "variant": "STM32F4xx/F413C(G-H)U_F423CHU"
   },
   "debug": {
-    "jlink_device": "STM32F423CH",
+    "jlink_device": "stm32f423ch",
     "openocd_target": "stm32f4x",
     "svd_path": "STM32F423.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F423CHUx (320.0k RAM 1536.0k Flash)",
+  "name": "STM32F423CHUx (320k RAM 1536k Flash)",
   "upload": {
     "maximum_ram_size": 327680,
     "maximum_size": 1572864,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F423CHUx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f423ch.html",
+  "vendor": "ST"
 }

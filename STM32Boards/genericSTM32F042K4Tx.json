@@ -9,7 +9,7 @@
     "variant": "STM32F0xx/F042K(4-6)T"
   },
   "debug": {
-    "jlink_device": "STM32F042K4",
+    "jlink_device": "stm32f042k4",
     "openocd_target": "stm32f0x",
     "svd_path": "STM32F0x2.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F042K4Tx (6.0k RAM 16.0k Flash)",
+  "name": "STM32F042K4Tx (6k RAM 16k Flash)",
   "upload": {
     "maximum_ram_size": 6144,
     "maximum_size": 16384,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F042K4Tx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f042k4.html",
+  "vendor": "ST"
 }

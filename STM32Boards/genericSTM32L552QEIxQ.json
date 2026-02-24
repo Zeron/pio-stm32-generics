@@ -1,17 +1,20 @@
 {
   "build": {
+    "arduino": {
+      "board": "GENERIC_L552QEIXQ"
+    },
     "core": "stm32",
     "cpu": "cortex-m33",
-    "extra_flags": "-DSTM32L552xx -DSTM32L5",
+    "extra_flags": "-DSTM32L562xx -DSTM32L5",
     "f_cpu": "110000000L",
     "mcu": "STM32L552QEIxQ",
-    "product_line": "STM32L552xx",
+    "product_line": "STM32L562xx",
     "variant": "STM32L5xx/L552Q(C-E)IxQ_L562QEIxQ"
   },
   "debug": {
-    "jlink_device": "STM32L552QE",
+    "jlink_device": "STM32F103C4",
     "openocd_target": "stm32l5x",
-    "svd_path": "STM32L552.svd"
+    "svd_path": "STM32L562.svd"
   },
   "frameworks": [
     "arduino",
@@ -19,20 +22,19 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L552QEIxQ (256.0k RAM 512.0k Flash)",
+  "name": "STM32L552QEIxQ (256k RAM 512k Flash)",
   "upload": {
     "maximum_ram_size": 262144,
     "maximum_size": 524288,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L552QEIxQ",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l552qe.html",
+  "vendor": "ST"
 }

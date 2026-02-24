@@ -9,7 +9,7 @@
     "variant": "STM32G4xx/G491V(C-E)T_G4A1VET"
   },
   "debug": {
-    "jlink_device": "STM32G491VE",
+    "jlink_device": "stm32g491ve",
     "openocd_target": "stm32g4x",
     "svd_path": "STM32G491.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32G491VETx (128.0k RAM 512.0k Flash)",
+  "name": "STM32G491VETx (112k RAM 512k Flash)",
   "upload": {
-    "maximum_ram_size": 131072,
+    "maximum_ram_size": 114688,
     "maximum_size": 524288,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32G491VETx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g491ve.html",
+  "vendor": "ST"
 }

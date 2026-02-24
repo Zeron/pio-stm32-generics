@@ -2,15 +2,15 @@
   "build": {
     "core": "stm32",
     "cpu": "cortex-m0plus",
-    "extra_flags": "-DSTM32L083xx -DSTM32L0",
+    "extra_flags": "-DSTM32L083xx -DSTM32L",
     "f_cpu": "32000000L",
     "mcu": "STM32L083RBTx",
     "product_line": "STM32L083xx",
     "variant": "STM32L0xx/L072R(B-Z)T_L073R(B-Z)T_L083R(B-Z)T"
   },
   "debug": {
-    "jlink_device": "STM32L083RB",
-    "openocd_target": "stm32l0",
+    "jlink_device": "stm32l083rb",
+    "openocd_target": "stm32xl",
     "svd_path": "STM32L0x3.svd"
   },
   "frameworks": [
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L083RBTx (20.0k RAM 128.0k Flash)",
+  "name": "STM32L083RBTx (20k RAM 128k Flash)",
   "upload": {
     "maximum_ram_size": 20480,
     "maximum_size": 131072,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L083RBTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l083rb.html",
+  "vendor": "ST"
 }

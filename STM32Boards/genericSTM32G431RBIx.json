@@ -9,7 +9,7 @@
     "variant": "STM32G4xx/G431R(6-8)(I-T)_G431RB(I-T)x(Z)_G441RB(I-T)"
   },
   "debug": {
-    "jlink_device": "STM32G431RB",
+    "jlink_device": "stm32g431rb",
     "openocd_target": "stm32g4x",
     "svd_path": "STM32G431.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32G431RBIx (32.0k RAM 128.0k Flash)",
+  "name": "STM32G431RBIx (32k RAM 128k Flash)",
   "upload": {
     "maximum_ram_size": 32768,
     "maximum_size": 131072,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32G431RBIx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g431rb.html",
+  "vendor": "ST"
 }

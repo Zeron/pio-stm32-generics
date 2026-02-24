@@ -9,7 +9,7 @@
     "variant": "STM32F1xx/F100Z(C-D-E)T"
   },
   "debug": {
-    "jlink_device": "STM32F100ZC",
+    "jlink_device": "stm32f100zc",
     "openocd_target": "stm32f1x",
     "svd_path": "STM32F100.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F100ZCTx (24.0k RAM 256.0k Flash)",
+  "name": "STM32F100ZCTx (24k RAM 256k Flash)",
   "upload": {
     "maximum_ram_size": 24576,
     "maximum_size": 262144,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F100ZCTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f100zc.html",
+  "vendor": "ST"
 }

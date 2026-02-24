@@ -9,7 +9,7 @@
     "variant": "STM32G4xx/G473P(B-C-E)I_G474P(B-C-E)I_G483PEI_G484PEI"
   },
   "debug": {
-    "jlink_device": "STM32G474PB",
+    "jlink_device": "stm32g474pb",
     "openocd_target": "stm32g4x",
     "svd_path": "STM32G474.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32G474PBIx (128.0k RAM 128.0k Flash)",
+  "name": "STM32G474PBIx (128k RAM 128k Flash)",
   "upload": {
     "maximum_ram_size": 131072,
     "maximum_size": 131072,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32G474PBIx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g474pb.html",
+  "vendor": "ST"
 }

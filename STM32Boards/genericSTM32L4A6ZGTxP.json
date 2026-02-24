@@ -1,5 +1,8 @@
 {
   "build": {
+    "arduino": {
+      "board": "GENERIC_L4A6ZGTXP"
+    },
     "core": "stm32",
     "cpu": "cortex-m4",
     "extra_flags": "-DSTM32L4A6xx -DSTM32L4",
@@ -9,7 +12,7 @@
     "variant": "STM32L4xx/L496ZGTxP_L4A6ZGTxP"
   },
   "debug": {
-    "jlink_device": "STM32L4A6ZG",
+    "jlink_device": "STM32F103C4",
     "openocd_target": "stm32l4x",
     "svd_path": "STM32L4A6.svd"
   },
@@ -19,20 +22,19 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L4A6ZGTxP (320.0k RAM 1024.0k Flash)",
+  "name": "STM32L4A6ZGTxP (320k RAM 1024k Flash)",
   "upload": {
     "maximum_ram_size": 327680,
     "maximum_size": 1048576,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L4A6ZGTxP",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l4a6zg.html",
+  "vendor": "ST"
 }

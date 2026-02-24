@@ -9,7 +9,7 @@
     "variant": "STM32F0xx/F071V(8-B)(H-T)"
   },
   "debug": {
-    "jlink_device": "STM32F071VB",
+    "jlink_device": "stm32f071vb",
     "openocd_target": "stm32f0x",
     "svd_path": "STM32F0x1.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F071VBTx (16.0k RAM 128.0k Flash)",
+  "name": "STM32F071VBTx (16k RAM 128k Flash)",
   "upload": {
     "maximum_ram_size": 16384,
     "maximum_size": 131072,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F071VBTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f071vb.html",
+  "vendor": "ST"
 }

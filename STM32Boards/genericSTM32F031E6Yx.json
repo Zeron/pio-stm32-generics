@@ -9,7 +9,7 @@
     "variant": "STM32F0xx/F031E6Y_F038E6Y"
   },
   "debug": {
-    "jlink_device": "STM32F031E6",
+    "jlink_device": "stm32f031e6",
     "openocd_target": "stm32f0x",
     "svd_path": "STM32F0x1.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F031E6Yx (4.0k RAM 32.0k Flash)",
+  "name": "STM32F031E6Yx (4k RAM 32k Flash)",
   "upload": {
     "maximum_ram_size": 4096,
     "maximum_size": 32768,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F031E6Yx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f031e6.html",
+  "vendor": "ST"
 }

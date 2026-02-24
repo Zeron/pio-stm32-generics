@@ -2,15 +2,15 @@
   "build": {
     "core": "stm32",
     "cpu": "cortex-m0plus",
-    "extra_flags": "-DSTM32L083xx -DSTM32L0",
+    "extra_flags": "-DSTM32L083xx -DSTM32L",
     "f_cpu": "32000000L",
     "mcu": "STM32L083CZUx",
     "product_line": "STM32L083xx",
     "variant": "STM32L0xx/L072C(B-Z)(T-U)_L073C(B-Z)(T-U)_L082CZU_L083CBT_L083CZ(T-U)"
   },
   "debug": {
-    "jlink_device": "STM32L083CZ",
-    "openocd_target": "stm32l0",
+    "jlink_device": "stm32l083cz",
+    "openocd_target": "stm32xl",
     "svd_path": "STM32L0x3.svd"
   },
   "frameworks": [
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L083CZUx (20.0k RAM 192.0k Flash)",
+  "name": "STM32L083CZUx (20k RAM 192k Flash)",
   "upload": {
     "maximum_ram_size": 20480,
     "maximum_size": 196608,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L083CZUx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l083cz.html",
+  "vendor": "ST"
 }

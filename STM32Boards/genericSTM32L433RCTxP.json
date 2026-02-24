@@ -1,5 +1,8 @@
 {
   "build": {
+    "arduino": {
+      "board": "GENERIC_L433RCTXP"
+    },
     "core": "stm32",
     "cpu": "cortex-m4",
     "extra_flags": "-DSTM32L433xx -DSTM32L4",
@@ -9,7 +12,7 @@
     "variant": "STM32L4xx/L433RCTxP"
   },
   "debug": {
-    "jlink_device": "STM32L433RC",
+    "jlink_device": "STM32F103C4",
     "openocd_target": "stm32l4x",
     "svd_path": "STM32L433.svd"
   },
@@ -19,20 +22,19 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L433RCTxP (64.0k RAM 256.0k Flash)",
+  "name": "STM32L433RCTxP (64k RAM 256k Flash)",
   "upload": {
     "maximum_ram_size": 65536,
     "maximum_size": 262144,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L433RCTxP",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l433rc.html",
+  "vendor": "ST"
 }

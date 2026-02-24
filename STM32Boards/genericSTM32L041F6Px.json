@@ -2,15 +2,15 @@
   "build": {
     "core": "stm32",
     "cpu": "cortex-m0plus",
-    "extra_flags": "-DSTM32L041xx -DSTM32L0",
+    "extra_flags": "-DSTM32L041xx -DSTM32L",
     "f_cpu": "32000000L",
     "mcu": "STM32L041F6Px",
     "product_line": "STM32L041xx",
     "variant": "STM32L0xx/L031F(4-6)P_L041F6P"
   },
   "debug": {
-    "jlink_device": "STM32L041F6",
-    "openocd_target": "stm32l0",
+    "jlink_device": "stm32l041f6",
+    "openocd_target": "stm32xl",
     "svd_path": "STM32L0x1.svd"
   },
   "frameworks": [
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L041F6Px (8.0k RAM 32.0k Flash)",
+  "name": "STM32L041F6Px (8k RAM 32k Flash)",
   "upload": {
     "maximum_ram_size": 8192,
     "maximum_size": 32768,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L041F6Px",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l041f6.html",
+  "vendor": "ST"
 }

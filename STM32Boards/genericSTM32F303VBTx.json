@@ -9,7 +9,7 @@
     "variant": "STM32F3xx/F303V(B-C)T"
   },
   "debug": {
-    "jlink_device": "STM32F303VB",
+    "jlink_device": "stm32f303vb",
     "openocd_target": "stm32f3x",
     "svd_path": "STM32F303.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F303VBTx (32.0k RAM 128.0k Flash)",
+  "name": "STM32F303VBTx (40k RAM 128k Flash)",
   "upload": {
-    "maximum_ram_size": 32768,
+    "maximum_ram_size": 40960,
     "maximum_size": 131072,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F303VBTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f303vb.html",
+  "vendor": "ST"
 }

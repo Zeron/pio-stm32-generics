@@ -1,16 +1,19 @@
 {
   "build": {
+    "arduino": {
+      "board": "GENERIC_WBA55CGUX"
+    },
     "core": "stm32",
     "cpu": "cortex-m33",
-    "extra_flags": "-DSTM32WBA55xx -DSTM32WB",
+    "extra_flags": "-DSTM32WBA55xx -DSTM32WBA",
     "f_cpu": "100000000L",
     "mcu": "STM32WBA55CGUx",
     "product_line": "STM32WBA55xx",
     "variant": "STM32WBAxx/WBA55C(E-G)U"
   },
   "debug": {
-    "jlink_device": "STM32WBA55CG",
-    "openocd_target": "stm32wbx",
+    "jlink_device": "stm32wba55cg",
+    "openocd_target": "stm32wbax",
     "svd_path": "STM32WBA55.svd"
   },
   "frameworks": [
@@ -19,20 +22,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32WBA55CGUx (128.0k RAM 1024.0k Flash)",
+  "name": "STM32WBA55CGUx (128k RAM 1024k Flash)",
   "upload": {
     "maximum_ram_size": 131072,
     "maximum_size": 1048576,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32WBA55CGUx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32wba55cg.html",
+  "vendor": "ST"
 }

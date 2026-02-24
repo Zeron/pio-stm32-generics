@@ -1,5 +1,8 @@
 {
   "build": {
+    "arduino": {
+      "board": "GENERIC_L412RBIXP"
+    },
     "core": "stm32",
     "cpu": "cortex-m4",
     "extra_flags": "-DSTM32L412xx -DSTM32L4",
@@ -9,7 +12,7 @@
     "variant": "STM32L4xx/L412RB(I-T)xP"
   },
   "debug": {
-    "jlink_device": "STM32L412RB",
+    "jlink_device": "STM32F103C4",
     "openocd_target": "stm32l4x",
     "svd_path": "STM32L412.svd"
   },
@@ -19,20 +22,19 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L412RBIxP (40.0k RAM 128.0k Flash)",
+  "name": "STM32L412RBIxP (40k RAM 128k Flash)",
   "upload": {
     "maximum_ram_size": 40960,
     "maximum_size": 131072,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L412RBIxP",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l412rb.html",
+  "vendor": "ST"
 }

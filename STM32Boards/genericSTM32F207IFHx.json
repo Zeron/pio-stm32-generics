@@ -9,7 +9,7 @@
     "variant": "STM32F2xx/F207I(C-E-F-G)(H-T)_F217I(E-G)(H-T)"
   },
   "debug": {
-    "jlink_device": "STM32F207IF",
+    "jlink_device": "stm32f207if",
     "openocd_target": "stm32f2x",
     "svd_path": "STM32F207.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F207IFHx (128.0k RAM 768.0k Flash)",
+  "name": "STM32F207IFHx (128k RAM 768k Flash)",
   "upload": {
     "maximum_ram_size": 131072,
     "maximum_size": 786432,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F207IFHx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f207if.html",
+  "vendor": "ST"
 }

@@ -9,7 +9,7 @@
     "variant": "STM32L4xx/L475R(C-E-G)T_L476R(C-E-G)T_L486RGT"
   },
   "debug": {
-    "jlink_device": "STM32L486RG",
+    "jlink_device": "stm32l486rg",
     "openocd_target": "stm32l4x",
     "svd_path": "STM32L486.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L486RGTx (128.0k RAM 1024.0k Flash)",
+  "name": "STM32L486RGTx (128k RAM 1024k Flash)",
   "upload": {
     "maximum_ram_size": 131072,
     "maximum_size": 1048576,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L486RGTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l486rg.html",
+  "vendor": "ST"
 }

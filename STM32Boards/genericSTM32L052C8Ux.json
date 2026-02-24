@@ -2,15 +2,15 @@
   "build": {
     "core": "stm32",
     "cpu": "cortex-m0plus",
-    "extra_flags": "-DSTM32L052xx -DSTM32L0",
+    "extra_flags": "-DSTM32L052xx -DSTM32L",
     "f_cpu": "32000000L",
     "mcu": "STM32L052C8Ux",
     "product_line": "STM32L052xx",
     "variant": "STM32L0xx/L052C(6-8)(T-U)_L053C(6-8)(T-U)_L062C8U_L063C8(T-U)"
   },
   "debug": {
-    "jlink_device": "STM32L052C8",
-    "openocd_target": "stm32l0",
+    "jlink_device": "stm32l052c8",
+    "openocd_target": "stm32xl",
     "svd_path": "STM32L052.svd"
   },
   "frameworks": [
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L052C8Ux (8.0k RAM 64.0k Flash)",
+  "name": "STM32L052C8Ux (8k RAM 64k Flash)",
   "upload": {
     "maximum_ram_size": 8192,
     "maximum_size": 65536,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L052C8Ux",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l052c8.html",
+  "vendor": "ST"
 }

@@ -9,7 +9,7 @@
     "variant": "STM32F0xx/F030F4P"
   },
   "debug": {
-    "jlink_device": "STM32F030F4",
+    "jlink_device": "stm32f030f4",
     "openocd_target": "stm32f0x",
     "svd_path": "STM32F0x0.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F030F4Px (4.0k RAM 16.0k Flash)",
+  "name": "STM32F030F4Px (4k RAM 16k Flash)",
   "upload": {
     "maximum_ram_size": 4096,
     "maximum_size": 16384,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F030F4Px",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f030f4.html",
+  "vendor": "ST"
 }

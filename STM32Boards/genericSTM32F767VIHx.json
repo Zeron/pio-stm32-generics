@@ -9,7 +9,7 @@
     "variant": "STM32F7xx/F765V(G-I)(H-T)_F767V(G-I)(H-T)_F777VI(H-T)"
   },
   "debug": {
-    "jlink_device": "STM32F767VI",
+    "jlink_device": "stm32f767vi",
     "openocd_target": "stm32f7x",
     "svd_path": "STM32F767.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F767VIHx (384.0k RAM 2048.0k Flash)",
+  "name": "STM32F767VIHx (512k RAM 2048k Flash)",
   "upload": {
-    "maximum_ram_size": 393216,
+    "maximum_ram_size": 524288,
     "maximum_size": 2097152,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F767VIHx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f767vi.html",
+  "vendor": "ST"
 }

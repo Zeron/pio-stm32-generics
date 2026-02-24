@@ -2,15 +2,15 @@
   "build": {
     "core": "stm32",
     "cpu": "cortex-m0plus",
-    "extra_flags": "-DSTM32L021xx -DSTM32L0",
+    "extra_flags": "-DSTM32L021xx -DSTM32L",
     "f_cpu": "32000000L",
     "mcu": "STM32L021G4Ux",
     "product_line": "STM32L021xx",
     "variant": "STM32L0xx/L011G(3-4)U_L021G4U"
   },
   "debug": {
-    "jlink_device": "STM32L021G4",
-    "openocd_target": "stm32l0",
+    "jlink_device": "stm32l021g4",
+    "openocd_target": "stm32xl",
     "svd_path": "STM32L0x1.svd"
   },
   "frameworks": [
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L021G4Ux (2.0k RAM 16.0k Flash)",
+  "name": "STM32L021G4Ux (2k RAM 16k Flash)",
   "upload": {
     "maximum_ram_size": 2048,
     "maximum_size": 16384,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L021G4Ux",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l021g4.html",
+  "vendor": "ST"
 }

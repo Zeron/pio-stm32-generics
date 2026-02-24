@@ -9,7 +9,7 @@
     "variant": "STM32F0xx/F072V(8-B)(H-T)"
   },
   "debug": {
-    "jlink_device": "STM32F072VB",
+    "jlink_device": "stm32f072vb",
     "openocd_target": "stm32f0x",
     "svd_path": "STM32F0x2.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F072VBHx (16.0k RAM 128.0k Flash)",
+  "name": "STM32F072VBHx (16k RAM 128k Flash)",
   "upload": {
     "maximum_ram_size": 16384,
     "maximum_size": 131072,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F072VBHx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f072vb.html",
+  "vendor": "ST"
 }

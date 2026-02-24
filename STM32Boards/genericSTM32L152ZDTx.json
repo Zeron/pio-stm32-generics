@@ -2,15 +2,15 @@
   "build": {
     "core": "stm32",
     "cpu": "cortex-m3",
-    "extra_flags": "-DSTM32L152xD -DSTM32L1",
+    "extra_flags": "-DSTM32L152xD -DSTM32L",
     "f_cpu": "32000000L",
     "mcu": "STM32L152ZDTx",
     "product_line": "STM32L152xD",
     "variant": "STM32L1xx/L151ZDT_L152ZDT_L162ZDT"
   },
   "debug": {
-    "jlink_device": "STM32L152ZD",
-    "openocd_target": "stm32l1",
+    "jlink_device": "stm32l152zd",
+    "openocd_target": "stm32xl",
     "svd_path": "STM32L152.svd"
   },
   "frameworks": [
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L152ZDTx (48.0k RAM 384.0k Flash)",
+  "name": "STM32L152ZDTx (48k RAM 384k Flash)",
   "upload": {
     "maximum_ram_size": 49152,
     "maximum_size": 393216,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L152ZDTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l152zd.html",
+  "vendor": "ST"
 }

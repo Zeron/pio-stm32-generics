@@ -2,15 +2,15 @@
   "build": {
     "core": "stm32",
     "cpu": "cortex-m0plus",
-    "extra_flags": "-DSTM32L011xx -DSTM32L0",
+    "extra_flags": "-DSTM32L011xx -DSTM32L",
     "f_cpu": "32000000L",
     "mcu": "STM32L011D3Px",
     "product_line": "STM32L011xx",
     "variant": "STM32L0xx/L011D(3-4)P_L021D4P"
   },
   "debug": {
-    "jlink_device": "STM32L011D3",
-    "openocd_target": "stm32l0",
+    "jlink_device": "stm32l011d3",
+    "openocd_target": "stm32xl",
     "svd_path": "STM32L0x1.svd"
   },
   "frameworks": [
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L011D3Px (2.0k RAM 8.0k Flash)",
+  "name": "STM32L011D3Px (2k RAM 8k Flash)",
   "upload": {
     "maximum_ram_size": 2048,
     "maximum_size": 8192,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L011D3Px",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l011d3.html",
+  "vendor": "ST"
 }

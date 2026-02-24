@@ -9,7 +9,7 @@
     "variant": "STM32G4xx/G473M(B-C-E)T_G474M(B-C-E)T_G483MET_G484MET"
   },
   "debug": {
-    "jlink_device": "STM32G483ME",
+    "jlink_device": "stm32g483me",
     "openocd_target": "stm32g4x",
     "svd_path": "STM32G483.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32G483METx (128.0k RAM 512.0k Flash)",
+  "name": "STM32G483METx (128k RAM 512k Flash)",
   "upload": {
     "maximum_ram_size": 131072,
     "maximum_size": 524288,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32G483METx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g483me.html",
+  "vendor": "ST"
 }

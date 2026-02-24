@@ -9,7 +9,7 @@
     "variant": "STM32F4xx/F413C(G-H)U_F423CHU"
   },
   "debug": {
-    "jlink_device": "STM32F413CG",
+    "jlink_device": "stm32f413cg",
     "openocd_target": "stm32f4x",
     "svd_path": "STM32F413.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F413CGUx (320.0k RAM 1024.0k Flash)",
+  "name": "STM32F413CGUx (320k RAM 1024k Flash)",
   "upload": {
     "maximum_ram_size": 327680,
     "maximum_size": 1048576,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F413CGUx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f413cg.html",
+  "vendor": "ST"
 }

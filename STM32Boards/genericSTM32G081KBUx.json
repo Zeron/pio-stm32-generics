@@ -9,7 +9,7 @@
     "variant": "STM32G0xx/G071K(6-8-B)(T-U)_G081KB(T-U)"
   },
   "debug": {
-    "jlink_device": "STM32G081KB",
+    "jlink_device": "stm32g081kb",
     "openocd_target": "stm32g0x",
     "svd_path": "STM32G081.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32G081KBUx (36.0k RAM 128.0k Flash)",
+  "name": "STM32G081KBUx (36k RAM 128k Flash)",
   "upload": {
     "maximum_ram_size": 36864,
     "maximum_size": 131072,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32G081KBUx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g081kb.html",
+  "vendor": "ST"
 }

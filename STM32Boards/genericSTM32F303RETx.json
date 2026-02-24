@@ -9,7 +9,7 @@
     "variant": "STM32F3xx/F303R(D-E)T"
   },
   "debug": {
-    "jlink_device": "STM32F303RE",
+    "jlink_device": "stm32f303re",
     "openocd_target": "stm32f3x",
     "svd_path": "STM32F303.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F303RETx (64.0k RAM 512.0k Flash)",
+  "name": "STM32F303RETx (80k RAM 512k Flash)",
   "upload": {
-    "maximum_ram_size": 65536,
+    "maximum_ram_size": 81920,
     "maximum_size": 524288,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F303RETx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f303re.html",
+  "vendor": "ST"
 }

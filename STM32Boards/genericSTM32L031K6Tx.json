@@ -2,15 +2,15 @@
   "build": {
     "core": "stm32",
     "cpu": "cortex-m0plus",
-    "extra_flags": "-DSTM32L031xx -DSTM32L0",
+    "extra_flags": "-DSTM32L031xx -DSTM32L",
     "f_cpu": "32000000L",
     "mcu": "STM32L031K6Tx",
     "product_line": "STM32L031xx",
     "variant": "STM32L0xx/L031K(4-6)T_L041K6T"
   },
   "debug": {
-    "jlink_device": "STM32L031K6",
-    "openocd_target": "stm32l0",
+    "jlink_device": "stm32l031k6",
+    "openocd_target": "stm32xl",
     "svd_path": "STM32L0x1.svd"
   },
   "frameworks": [
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L031K6Tx (8.0k RAM 32.0k Flash)",
+  "name": "STM32L031K6Tx (8k RAM 32k Flash)",
   "upload": {
     "maximum_ram_size": 8192,
     "maximum_size": 32768,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L031K6Tx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l031k6.html",
+  "vendor": "ST"
 }

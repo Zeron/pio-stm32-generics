@@ -9,7 +9,7 @@
     "variant": "STM32F4xx/F401R(B-C-D-E)T"
   },
   "debug": {
-    "jlink_device": "STM32F401RC",
+    "jlink_device": "stm32f401rc",
     "openocd_target": "stm32f4x",
     "svd_path": "STM32F401.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F401RCTx (64.0k RAM 256.0k Flash)",
+  "name": "STM32F401RCTx (64k RAM 256k Flash)",
   "upload": {
     "maximum_ram_size": 65536,
     "maximum_size": 262144,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F401RCTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f401rc.html",
+  "vendor": "ST"
 }

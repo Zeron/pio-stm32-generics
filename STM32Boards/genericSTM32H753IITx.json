@@ -9,7 +9,7 @@
     "variant": "STM32H7xx/H742I(G-I)(K-T)_H743I(G-I)(K-T)_H750IB(K-T)_H753II(K-T)"
   },
   "debug": {
-    "jlink_device": "STM32H753II",
+    "jlink_device": "stm32h753ii",
     "openocd_target": "stm32h7x",
     "svd_path": "STM32H753.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32H753IITx (864.0k RAM 2048.0k Flash)",
+  "name": "STM32H753IITx (1024k RAM 2048k Flash)",
   "upload": {
-    "maximum_ram_size": 884736,
+    "maximum_ram_size": 1048576,
     "maximum_size": 2097152,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32H753IITx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32h753ii.html",
+  "vendor": "ST"
 }

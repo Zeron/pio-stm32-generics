@@ -2,15 +2,15 @@
   "build": {
     "core": "stm32",
     "cpu": "cortex-m3",
-    "extra_flags": "-DSTM32L162xE -DSTM32L1",
+    "extra_flags": "-DSTM32L162xE -DSTM32L",
     "f_cpu": "32000000L",
     "mcu": "STM32L162RETx",
     "product_line": "STM32L162xE",
     "variant": "STM32L1xx/L151RET_L152RET_L162RET"
   },
   "debug": {
-    "jlink_device": "STM32L162RE",
-    "openocd_target": "stm32l1",
+    "jlink_device": "stm32l162re",
+    "openocd_target": "stm32xl",
     "svd_path": "STM32L162.svd"
   },
   "frameworks": [
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L162RETx (80.0k RAM 512.0k Flash)",
+  "name": "STM32L162RETx (80k RAM 512k Flash)",
   "upload": {
     "maximum_ram_size": 81920,
     "maximum_size": 524288,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L162RETx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l162re.html",
+  "vendor": "ST"
 }

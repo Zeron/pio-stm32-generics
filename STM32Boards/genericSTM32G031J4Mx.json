@@ -9,7 +9,7 @@
     "variant": "STM32G0xx/G031J(4-6)M_G041J6M"
   },
   "debug": {
-    "jlink_device": "STM32G031J4",
+    "jlink_device": "stm32g031j4",
     "openocd_target": "stm32g0x",
     "svd_path": "STM32G031.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32G031J4Mx (8.0k RAM 16.0k Flash)",
+  "name": "STM32G031J4Mx (8k RAM 16k Flash)",
   "upload": {
     "maximum_ram_size": 8192,
     "maximum_size": 16384,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32G031J4Mx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g031j4.html",
+  "vendor": "ST"
 }

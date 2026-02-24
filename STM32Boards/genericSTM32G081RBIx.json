@@ -9,7 +9,7 @@
     "variant": "STM32G0xx/G071R(6-8)T_G071RB(I-T)_G081RB(I-T)"
   },
   "debug": {
-    "jlink_device": "STM32G081RB",
+    "jlink_device": "stm32g081rb",
     "openocd_target": "stm32g0x",
     "svd_path": "STM32G081.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32G081RBIx (36.0k RAM 128.0k Flash)",
+  "name": "STM32G081RBIx (36k RAM 128k Flash)",
   "upload": {
     "maximum_ram_size": 36864,
     "maximum_size": 131072,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32G081RBIx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g081rb.html",
+  "vendor": "ST"
 }

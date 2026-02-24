@@ -1,5 +1,8 @@
 {
   "build": {
+    "arduino": {
+      "board": "GENERIC_G431RBTXZ"
+    },
     "core": "stm32",
     "cpu": "cortex-m4",
     "extra_flags": "-DSTM32G431xx -DSTM32G4",
@@ -9,7 +12,7 @@
     "variant": "STM32G4xx/G431R(6-8)(I-T)_G431RB(I-T)x(Z)_G441RB(I-T)"
   },
   "debug": {
-    "jlink_device": "STM32G431RB",
+    "jlink_device": "STM32F103C4",
     "openocd_target": "stm32g4x",
     "svd_path": "STM32G431.svd"
   },
@@ -19,20 +22,19 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32G431RBTxZ (32.0k RAM 128.0k Flash)",
+  "name": "STM32G431RBTxZ (32k RAM 128k Flash)",
   "upload": {
     "maximum_ram_size": 32768,
     "maximum_size": 131072,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32G431RBTxZ",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g431rb.html",
+  "vendor": "ST"
 }

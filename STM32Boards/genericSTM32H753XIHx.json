@@ -9,7 +9,7 @@
     "variant": "STM32H7xx/H742X(G-I)H_H743X(G-I)H_H745X(G-I)H_H747X(G-I)H_H750XBH_H753XIH_H755XIH_H757XIH"
   },
   "debug": {
-    "jlink_device": "STM32H753XI",
+    "jlink_device": "stm32h753xi",
     "openocd_target": "stm32h7x",
     "svd_path": "STM32H753.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32H753XIHx (864.0k RAM 2048.0k Flash)",
+  "name": "STM32H753XIHx (1024k RAM 2048k Flash)",
   "upload": {
-    "maximum_ram_size": 884736,
+    "maximum_ram_size": 1048576,
     "maximum_size": 2097152,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32H753XIHx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32h753xi.html",
+  "vendor": "ST"
 }

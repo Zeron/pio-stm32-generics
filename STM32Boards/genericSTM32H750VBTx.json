@@ -9,7 +9,7 @@
     "variant": "STM32H7xx/H742V(G-I)(H-T)_H743V(G-I)(H-T)_H750VBT_H753VI(H-T)"
   },
   "debug": {
-    "jlink_device": "STM32H750VB",
+    "jlink_device": "stm32h750vb",
     "openocd_target": "stm32h7x",
     "svd_path": "STM32H750.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32H750VBTx (864.0k RAM 128.0k Flash)",
+  "name": "STM32H750VBTx (1024k RAM 128k Flash)",
   "upload": {
-    "maximum_ram_size": 884736,
+    "maximum_ram_size": 1048576,
     "maximum_size": 131072,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32H750VBTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32h750vb.html",
+  "vendor": "ST"
 }

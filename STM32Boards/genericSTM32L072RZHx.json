@@ -2,15 +2,15 @@
   "build": {
     "core": "stm32",
     "cpu": "cortex-m0plus",
-    "extra_flags": "-DSTM32L072xx -DSTM32L0",
+    "extra_flags": "-DSTM32L072xx -DSTM32L",
     "f_cpu": "32000000L",
     "mcu": "STM32L072RZHx",
     "product_line": "STM32L072xx",
     "variant": "STM32L0xx/L072R(B-Z)(H-I)_L073RBH_L073RZ(H-I)_L083R(B-Z)H"
   },
   "debug": {
-    "jlink_device": "STM32L072RZ",
-    "openocd_target": "stm32l0",
+    "jlink_device": "stm32l072rz",
+    "openocd_target": "stm32xl",
     "svd_path": "STM32L0x2.svd"
   },
   "frameworks": [
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L072RZHx (20.0k RAM 192.0k Flash)",
+  "name": "STM32L072RZHx (20k RAM 192k Flash)",
   "upload": {
     "maximum_ram_size": 20480,
     "maximum_size": 196608,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L072RZHx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l072rz.html",
+  "vendor": "ST"
 }

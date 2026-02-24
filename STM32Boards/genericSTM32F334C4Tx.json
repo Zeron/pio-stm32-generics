@@ -9,7 +9,7 @@
     "variant": "STM32F3xx/F303C(6-8)T_F334C(4-6-8)T"
   },
   "debug": {
-    "jlink_device": "STM32F334C4",
+    "jlink_device": "stm32f334c4",
     "openocd_target": "stm32f3x",
     "svd_path": "STM32F3x4.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F334C4Tx (12.0k RAM 16.0k Flash)",
+  "name": "STM32F334C4Tx (16k RAM 16k Flash)",
   "upload": {
-    "maximum_ram_size": 12288,
+    "maximum_ram_size": 16384,
     "maximum_size": 16384,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F334C4Tx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f334c4.html",
+  "vendor": "ST"
 }

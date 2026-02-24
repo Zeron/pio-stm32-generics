@@ -1,7 +1,7 @@
 {
   "build": {
     "core": "stm32",
-    "cpu": "cortex-m7",
+    "cpu": "cortex-m4,cortex-m7",
     "extra_flags": "-DSTM32H745xG -DSTM32H7",
     "f_cpu": "480000000L",
     "mcu": "STM32H745XGHx",
@@ -9,7 +9,7 @@
     "variant": "STM32H7xx/H742X(G-I)H_H743X(G-I)H_H745X(G-I)H_H747X(G-I)H_H750XBH_H753XIH_H755XIH_H757XIH"
   },
   "debug": {
-    "jlink_device": "STM32H743XI",
+    "jlink_device": "STM32F103C4",
     "openocd_target": "stm32h7x",
     "svd_path": "STM32H745_CM7.svd"
   },
@@ -19,20 +19,19 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32H745XGHx (864.0k RAM 1024.0k Flash)",
+  "name": "STM32H745XGHx (1024k RAM 1024k Flash)",
   "upload": {
-    "maximum_ram_size": 884736,
+    "maximum_ram_size": 1048576,
     "maximum_size": 1048576,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32H745XGHx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32h745xg.html",
+  "vendor": "ST"
 }

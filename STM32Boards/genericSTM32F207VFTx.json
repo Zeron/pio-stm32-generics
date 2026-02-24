@@ -9,7 +9,7 @@
     "variant": "STM32F2xx/F207V(C-E-F-G)T_F217V(E-G)T"
   },
   "debug": {
-    "jlink_device": "STM32F207VF",
+    "jlink_device": "stm32f207vf",
     "openocd_target": "stm32f2x",
     "svd_path": "STM32F207.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F207VFTx (128.0k RAM 768.0k Flash)",
+  "name": "STM32F207VFTx (128k RAM 768k Flash)",
   "upload": {
     "maximum_ram_size": 131072,
     "maximum_size": 786432,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F207VFTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f207vf.html",
+  "vendor": "ST"
 }

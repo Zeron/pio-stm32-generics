@@ -9,7 +9,7 @@
     "variant": "STM32F1xx/F100R(8-B)T"
   },
   "debug": {
-    "jlink_device": "STM32F100R8",
+    "jlink_device": "stm32f100r8",
     "openocd_target": "stm32f1x",
     "svd_path": "STM32F100.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F100R8Tx (8.0k RAM 64.0k Flash)",
+  "name": "STM32F100R8Tx (8k RAM 64k Flash)",
   "upload": {
     "maximum_ram_size": 8192,
     "maximum_size": 65536,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F100R8Tx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f100r8.html",
+  "vendor": "ST"
 }

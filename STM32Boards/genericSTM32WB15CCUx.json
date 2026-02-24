@@ -9,7 +9,7 @@
     "variant": "STM32WBxx/WB15CCU"
   },
   "debug": {
-    "jlink_device": "STM32WB15CC",
+    "jlink_device": "stm32wb15cc",
     "openocd_target": "stm32wbx",
     "svd_path": "STM32WB15_CM4.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32WB15CCUx (48.0k RAM 320.0k Flash)",
+  "name": "STM32WB15CCUx (48k RAM 320k Flash)",
   "upload": {
     "maximum_ram_size": 49152,
     "maximum_size": 327680,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32WB15CCUx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32wb15cc.html",
+  "vendor": "ST"
 }

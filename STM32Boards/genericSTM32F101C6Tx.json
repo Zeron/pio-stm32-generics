@@ -9,7 +9,7 @@
     "variant": "STM32F1xx/F101C(4-6)T"
   },
   "debug": {
-    "jlink_device": "STM32F101C6",
+    "jlink_device": "stm32f101c6",
     "openocd_target": "stm32f1x",
     "svd_path": "STM32F101.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F101C6Tx (6.0k RAM 32.0k Flash)",
+  "name": "STM32F101C6Tx (6k RAM 32k Flash)",
   "upload": {
     "maximum_ram_size": 6144,
     "maximum_size": 32768,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F101C6Tx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f101c6.html",
+  "vendor": "ST"
 }

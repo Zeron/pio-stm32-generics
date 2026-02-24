@@ -9,7 +9,7 @@
     "variant": "STM32L4xx/L496Z(E-G)T_L4A6ZGT"
   },
   "debug": {
-    "jlink_device": "STM32L496ZG",
+    "jlink_device": "stm32l496zg",
     "openocd_target": "stm32l4x",
     "svd_path": "STM32L496.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L496ZGTx (320.0k RAM 1024.0k Flash)",
+  "name": "STM32L496ZGTx (320k RAM 1024k Flash)",
   "upload": {
     "maximum_ram_size": 327680,
     "maximum_size": 1048576,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L496ZGTx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l496zg.html",
+  "vendor": "ST"
 }

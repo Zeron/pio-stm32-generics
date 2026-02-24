@@ -2,15 +2,15 @@
   "build": {
     "core": "stm32",
     "cpu": "cortex-m0plus",
-    "extra_flags": "-DSTM32L010x6 -DSTM32L0",
+    "extra_flags": "-DSTM32L010x6 -DSTM32L",
     "f_cpu": "32000000L",
     "mcu": "STM32L010C6Tx",
     "product_line": "STM32L010x6",
     "variant": "STM32L0xx/L010C6T"
   },
   "debug": {
-    "jlink_device": "STM32L010C6",
-    "openocd_target": "stm32l0",
+    "jlink_device": "stm32l010c6",
+    "openocd_target": "stm32xl",
     "svd_path": "STM32L0x0.svd"
   },
   "frameworks": [
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L010C6Tx (8.0k RAM 32.0k Flash)",
+  "name": "STM32L010C6Tx (8k RAM 32k Flash)",
   "upload": {
     "maximum_ram_size": 8192,
     "maximum_size": 32768,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L010C6Tx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l010c6.html",
+  "vendor": "ST"
 }

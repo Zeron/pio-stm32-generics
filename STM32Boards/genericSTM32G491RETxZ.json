@@ -1,5 +1,8 @@
 {
   "build": {
+    "arduino": {
+      "board": "GENERIC_G491RETXZ"
+    },
     "core": "stm32",
     "cpu": "cortex-m4",
     "extra_flags": "-DSTM32G491xx -DSTM32G4",
@@ -9,7 +12,7 @@
     "variant": "STM32G4xx/G491RC(I-T)_G491RE(I-T-Y)x(Z)_G4A1RE(I-T-Y)"
   },
   "debug": {
-    "jlink_device": "STM32G491RE",
+    "jlink_device": "STM32F103C4",
     "openocd_target": "stm32g4x",
     "svd_path": "STM32G491.svd"
   },
@@ -19,20 +22,19 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32G491RETxZ (128.0k RAM 512.0k Flash)",
+  "name": "STM32G491RETxZ (112k RAM 512k Flash)",
   "upload": {
-    "maximum_ram_size": 131072,
+    "maximum_ram_size": 114688,
     "maximum_size": 524288,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32G491RETxZ",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g491re.html",
+  "vendor": "ST"
 }

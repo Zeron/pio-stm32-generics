@@ -9,7 +9,7 @@
     "variant": "STM32F4xx/F401CC(F-U-Y)_F401C(B-D-E)(U-Y)"
   },
   "debug": {
-    "jlink_device": "STM32F401CD",
+    "jlink_device": "stm32f401cd",
     "openocd_target": "stm32f4x",
     "svd_path": "STM32F401.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32F401CDUx (96.0k RAM 384.0k Flash)",
+  "name": "STM32F401CDUx (96k RAM 384k Flash)",
   "upload": {
     "maximum_ram_size": 98304,
     "maximum_size": 393216,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32F401CDUx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f401cd.html",
+  "vendor": "ST"
 }

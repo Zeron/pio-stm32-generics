@@ -9,7 +9,7 @@
     "variant": "STM32G4xx/G473V(B-C-E)(H-T)_G474V(B-C-E)(H-T)_G483VE(H-T)_G484VE(H-T)"
   },
   "debug": {
-    "jlink_device": "STM32G483VE",
+    "jlink_device": "stm32g483ve",
     "openocd_target": "stm32g4x",
     "svd_path": "STM32G483.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32G483VEHx (128.0k RAM 512.0k Flash)",
+  "name": "STM32G483VEHx (128k RAM 512k Flash)",
   "upload": {
     "maximum_ram_size": 131072,
     "maximum_size": 524288,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32G483VEHx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g483ve.html",
+  "vendor": "ST"
 }

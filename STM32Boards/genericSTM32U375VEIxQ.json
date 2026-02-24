@@ -1,0 +1,40 @@
+{
+  "build": {
+    "arduino": {
+      "board": "GENERIC_U375VEIXQ"
+    },
+    "core": "stm32",
+    "cpu": "cortex-m33",
+    "extra_flags": "-DSTM32U375xx -DSTM32U3",
+    "f_cpu": "96000000L",
+    "mcu": "STM32U375VEIxQ",
+    "product_line": "STM32U375xx",
+    "variant": "STM32U3xx/U375V(E-G)IxQ_U385VGIxQ"
+  },
+  "debug": {
+    "jlink_device": "STM32F103C4",
+    "openocd_target": "stm32u3x",
+    "svd_path": "STM32U3.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32U375VEIxQ (256k RAM 512k Flash)",
+  "upload": {
+    "maximum_ram_size": 262144,
+    "maximum_size": 524288,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "dfu",
+      "serial",
+      "stlink",
+      "cmsis-dap"
+    ]
+  },
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32u375ve.html",
+  "vendor": "ST"
+}

@@ -2,15 +2,15 @@
   "build": {
     "core": "stm32",
     "cpu": "cortex-m0plus",
-    "extra_flags": "-DSTM32L072xx -DSTM32L0",
+    "extra_flags": "-DSTM32L072xx -DSTM32L",
     "f_cpu": "32000000L",
     "mcu": "STM32L072CBYx",
     "product_line": "STM32L072xx",
     "variant": "STM32L0xx/L072CBY_L072CZ(E-Y)_L073CZY_L082CZY"
   },
   "debug": {
-    "jlink_device": "STM32L072CB",
-    "openocd_target": "stm32l0",
+    "jlink_device": "stm32l072cb",
+    "openocd_target": "stm32xl",
     "svd_path": "STM32L0x2.svd"
   },
   "frameworks": [
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32L072CBYx (20.0k RAM 128.0k Flash)",
+  "name": "STM32L072CBYx (20k RAM 128k Flash)",
   "upload": {
     "maximum_ram_size": 20480,
     "maximum_size": 131072,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32L072CBYx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l072cb.html",
+  "vendor": "ST"
 }
