@@ -4,7 +4,7 @@
     "cpu": "cortex-m4",
     "extra_flags": "-DSTM32WLE4xx -DSTM32WL",
     "f_cpu": "48000000L",
-    "mcu": "STM32WLE4J8Ix",
+    "mcu": "stm32wle4j8ix",
     "product_line": "STM32WLE4xx",
     "variant": "STM32WLxx/WL54JCI_WL55JCI_WLE4J(8-B-C)I_WLE5J(8-B-C)I"
   },

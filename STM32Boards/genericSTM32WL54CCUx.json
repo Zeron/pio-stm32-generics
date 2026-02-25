@@ -2,9 +2,9 @@
   "build": {
     "core": "stm32",
     "cpu": "cortex-m4",
-    "extra_flags": "-DSTM32WL54xx -DSTM32WL",
+    "extra_flags": "-DSTM32WL54xx -DSTM32WL -DUSE_CM4_STARTUP_FILE",
     "f_cpu": "48000000L",
-    "mcu": "STM32WL54CCUx",
+    "mcu": "stm32wl54ccux",
     "product_line": "STM32WL54xx",
     "variant": "STM32WLxx/WL54CCU_WL55CCU_WLE4C(8-B-C)U_WLE5C(8-B-C)U"
   },
