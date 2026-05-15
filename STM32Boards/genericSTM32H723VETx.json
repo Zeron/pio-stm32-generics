@@ -9,7 +9,7 @@
     "variant": "STM32H7xx/H723V(E-G)(H-T)_H730VB(H-T)_H733VG(H-T)"
   },
   "debug": {
-    "jlink_device": "STM32H723VE",
+    "jlink_device": "stm32h723ve",
     "openocd_target": "stm32h7x",
     "svd_path": "STM32H723.svd"
   },
@@ -19,20 +19,20 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32H723VETx (564.0k RAM 512.0k Flash)",
+  "name": "STM32H723VETx (564k RAM 512k Flash)",
   "upload": {
     "maximum_ram_size": 577536,
     "maximum_size": 524288,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
-      "cmsis-dap",
       "dfu",
-      "jlink",
       "serial",
-      "stlink"
+      "stlink",
+      "jlink",
+      "cmsis-dap"
     ]
   },
-  "url": "https://www.google.com/search?q=STM32H723VETx",
-  "vendor": "Generic"
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32h723ve.html",
+  "vendor": "ST"
 }

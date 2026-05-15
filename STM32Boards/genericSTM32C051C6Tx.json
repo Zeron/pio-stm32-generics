@@ -2,16 +2,16 @@
   "build": {
     "core": "stm32",
     "cpu": "cortex-m0plus",
-    "extra_flags": "-DSTM32C092xx -DSTM32C0",
+    "extra_flags": "-DSTM32C051xx -DSTM32C0",
     "f_cpu": "48000000L",
-    "mcu": "STM32C092RBTx",
-    "product_line": "STM32C092xx",
-    "variant": "STM32C0xx/C092RBT_C092RC(I-T)"
+    "mcu": "STM32C051C6Tx",
+    "product_line": "STM32C051xx",
+    "variant": "STM32C0xx/C051C(6-8)(T-U)"
   },
   "debug": {
-    "jlink_device": "stm32c092rb",
+    "jlink_device": "stm32c051c6",
     "openocd_target": "stm32c0x",
-    "svd_path": "STM32C092.svd"
+    "svd_path": "STM32C051.svd"
   },
   "frameworks": [
     "arduino",
@@ -19,10 +19,10 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "STM32C092RBTx (30k RAM 128k Flash)",
+  "name": "STM32C051C6Tx (12k RAM 32k Flash)",
   "upload": {
-    "maximum_ram_size": 30720,
-    "maximum_size": 131072,
+    "maximum_ram_size": 12288,
+    "maximum_size": 32768,
     "protocol": "serial",
     "protocols": [
       "blackmagic",
@@ -33,6 +33,6 @@
       "cmsis-dap"
     ]
   },
-  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32c092rb.html",
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32c051c6.html",
   "vendor": "ST"
 }

@@ -14,7 +14,7 @@
   "debug": {
     "jlink_device": "STM32F103C4",
     "openocd_target": "stm32u3x",
-    "svd_path": "STM32U3.svd"
+    "svd_path": "STM32U375.svd"
   },
   "frameworks": [
     "arduino",

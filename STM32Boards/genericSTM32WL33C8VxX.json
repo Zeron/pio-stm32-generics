@@ -1,0 +1,40 @@
+{
+  "build": {
+    "arduino": {
+      "board": "GENERIC_WL33C8VXX"
+    },
+    "core": "stm32",
+    "cpu": "cortex-m0plus",
+    "extra_flags": "-DSTM32WL3XX -DSTM32WL",
+    "f_cpu": "64000000L",
+    "mcu": "stm32wl33c8vxx",
+    "product_line": "STM32WL3XX",
+    "variant": "STM32WL3x/WL33C(8-B-C)Vx(X)"
+  },
+  "debug": {
+    "jlink_device": "STM32F103C4",
+    "openocd_target": "stm32wlx",
+    "svd_path": "STM32WL33.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3"
+  ],
+  "name": "STM32WL33C8VxX (16k RAM 64k Flash)",
+  "upload": {
+    "maximum_ram_size": 16384,
+    "maximum_size": 65536,
+    "protocol": "serial",
+    "protocols": [
+      "blackmagic",
+      "dfu",
+      "serial",
+      "stlink",
+      "cmsis-dap"
+    ]
+  },
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32wl33c8.html",
+  "vendor": "ST"
+}

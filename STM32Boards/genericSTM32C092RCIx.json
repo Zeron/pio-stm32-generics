@@ -6,7 +6,7 @@
     "f_cpu": "48000000L",
     "mcu": "STM32C092RCIx",
     "product_line": "STM32C092xx",
-    "variant": "STM32C0xx/C092CBT_C092RBT_C092RC(I-T)"
+    "variant": "STM32C0xx/C092RBT_C092RC(I-T)"
   },
   "debug": {
     "jlink_device": "stm32c092rc",
